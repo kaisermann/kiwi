@@ -1,0 +1,29 @@
+{
+	"name": "eslint-config-kaisermann",
+	"version": "0.0.1",
+	"description": "Very opinionated eslint config for javascript and typescript",
+	"main": "index.js",
+	"keywords": [
+		"eslint",
+		"config"
+	],
+	"author": "Christian Kaisermann <christian@kaisermann.me>",
+	"license": "MIT",
+	"files": [
+		"*.js"
+	],
+	"devDependencies": {
+		"eslint": "^5.13.0"
+	},
+	"peerDependencies": {
+		"eslint": "^5.13.0 || ^6.0.0"
+	},
+	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "^2.3.1",
+		"@typescript-eslint/parser": "^2.3.1",
+		"eslint-config-prettier": "^4.0.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-node": "^8.0.1",
+		"eslint-plugin-prettier": "^3.0.1"
+	}
+}
