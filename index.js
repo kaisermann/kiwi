@@ -10,7 +10,6 @@ module.exports = {
     './rules/typescript.js',
     './rules/prettier.js',
     './rules/tests.js',
-    './rules/svelte.js',
   ],
   parserOptions: {
     ecmaVersion: 2019,

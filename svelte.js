@@ -1,4 +1,6 @@
 module.exports = {
+  extends: ['./index.js'],
+  plugins: ['svelte3'],
   overrides: [
     {
       files: ['**/*.svelte'],
