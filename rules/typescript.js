@@ -175,7 +175,7 @@ module.exports = {
           {
             properties: 'never',
             genericType: 'always',
-            ignoreDestructuring: false,
+            ignoreDestructuring: true,
           },
         ],
 
@@ -203,4 +203,4 @@ module.exports = {
       },
     },
   ],
-}
+};

@@ -24,4 +24,4 @@ module.exports = {
     // https://eslint.org/docs/rules/no-path-concat
     'no-path-concat': 'error',
   },
-}
+};

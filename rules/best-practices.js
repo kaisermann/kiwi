@@ -290,4 +290,4 @@ module.exports = {
     // https://eslint.org/docs/rules/symbol-description
     'symbol-description': 'error',
   },
-}
+};

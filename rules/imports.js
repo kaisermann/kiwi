@@ -50,4 +50,4 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-self-import.md
     'import/no-self-import': 'error',
   },
-}
+};
