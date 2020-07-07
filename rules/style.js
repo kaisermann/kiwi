@@ -92,6 +92,12 @@ module.exports = {
         message:
           '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
       },
+      // ban all enums
+      {
+        selector: 'TSEnumDeclaration:not([const=true])',
+        message:
+          "Literal types and enums, in many cases, solve the same problem while enum has some trade-offs that usually literal types don't. Consider using a const enum or a literal type instead.",
+      },
     ],
 
     // Disallow the use of Boolean literals in conditional expressions
