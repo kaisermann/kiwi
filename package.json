@@ -3,7 +3,6 @@
   "name": "@kiwi/tooling",
   "version": "1.0.0",
   "description": "🥝",
-  "main": "index.js",
   "author": "Christian Kaisermann <christian@kaisermann.me>",
   "license": "MIT",
   "workspaces": [

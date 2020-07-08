@@ -1,5 +1,31 @@
-# 🥝
+# 🥝🛠
 
-A personal eslint & prettier config that aims to produce code readable to humans.
+_Kiwi Tooling_ is a very dear and hand-crafted front-end tooling preset that aims to guide you on writing readable code for humans.
 
-`yarn add -D eslint-config-kiwi`
+## Supports
+
+- ES6+ by default
+- Svelte (optional, must install `svelte`)
+- Typescript (optional, must install `typescript`)
+
+## Usage
+
+```shell
+$ yarn add -D @kiwi/eslint-config @kiwi/prettier-config
+```
+
+**.eslintrc:**
+
+```json
+{
+  "extends": "@kiwi"
+}
+```
+
+**.prettierrc**:
+
+```json
+"@kiwi/prettier-config
+```
+
+_(that's the whole `.prettierrc`)_
