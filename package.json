@@ -8,6 +8,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "lint": "eslint --ext .js packages/",
+    "fix": "eslint --ext .js packages/ --fix; prettier --write packages/**/*.js"
+  },
   "devDependencies": {
     "eslint": "^6.0.0",
     "prettier": "^2.0.5"

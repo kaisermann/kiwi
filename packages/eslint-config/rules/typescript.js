@@ -1,13 +1,10 @@
-let hasTypescript = false;
+const { hasModuleInstalled } = require('../lib/utils');
 
-// We're only including this preset if typescript is installed
-try {
-  hasTypescript = !!require('typescript');
-} catch (e) {}
+const hasTypescript = hasModuleInstalled('typescript');
 
-module.exports = {
+const tsPreset = {
   overrides: [
-    hasTypescript && {
+    {
       files: ['*.ts', '*.tsx'],
       extends: [
         'plugin:@typescript-eslint/eslint-recommended',
@@ -209,5 +206,7 @@ module.exports = {
         'import/export': 'off',
       },
     },
-  ].filter(Boolean),
+  ],
 };
+
+module.exports = !hasTypescript ? {} : tsPreset;
