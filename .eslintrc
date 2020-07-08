@@ -1,6 +1,3 @@
 {
-  "extends": ["./index.js"],
-  "env": {
-    "node": true,
-  },
-};
+  "extends": "kiwi"
+}

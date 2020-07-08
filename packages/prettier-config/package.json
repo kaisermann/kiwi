@@ -1,0 +1,23 @@
+{
+  "name": "@kiwi/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier is already opinionated, but we can be a tad bit more.",
+  "main": "index.js",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "Christian Kaisermann <christian@kaisermann.me>",
+  "license": "MIT",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "tag": "git tag -a v$npm_package_version -m \"Release v$npm_package_version\"",
+    "release": "yarn && git add package.json yarn.lock && git commit -m \"Release v$npm_package_version :tada:\"",
+    "prepublishOnly": "npm run release && npm run tag"
+  },
+  "peerDependencies": {
+    "prettier": "^2.0.5 || ^1.0.5"
+  }
+}

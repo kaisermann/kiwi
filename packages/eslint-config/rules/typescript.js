@@ -1,5 +1,6 @@
 let hasTypescript = false;
 
+// We're only including this preset if typescript is installed
 try {
   hasTypescript = !!require('typescript');
 } catch (e) {}
