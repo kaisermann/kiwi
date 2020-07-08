@@ -1,6 +1,12 @@
+let hasTypescript = false;
+
+try {
+  hasTypescript = !!require('typescript');
+} catch (e) {}
+
 module.exports = {
   overrides: [
-    {
+    hasTypescript && {
       files: ['*.ts', '*.tsx'],
       extends: [
         'plugin:@typescript-eslint/eslint-recommended',
@@ -202,5 +208,5 @@ module.exports = {
         'import/export': 'off',
       },
     },
-  ],
+  ].filter(Boolean),
 };
