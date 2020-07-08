@@ -1,6 +1,6 @@
-const { hasModuleInstalled } = require('../lib/utils');
+const { hasPackage } = require('../lib/utils');
 
-const hasPrettier = hasModuleInstalled('prettier');
+const hasPrettier = hasPackage('prettier');
 
 // https://github.com/prettier/eslint-plugin-prettier
 const prettierPreset = {

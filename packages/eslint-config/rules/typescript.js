@@ -1,6 +1,6 @@
-const { hasModuleInstalled } = require('../lib/utils');
+const { hasPackage } = require('../lib/utils');
 
-const hasTypescript = hasModuleInstalled('typescript');
+const hasTypescript = hasPackage('typescript');
 
 const tsPreset = {
   overrides: [

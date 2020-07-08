@@ -1,6 +1,6 @@
-const { hasModuleInstalled } = require('../lib/utils');
+const { hasPackage } = require('../lib/utils');
 
-const hasJest = hasModuleInstalled('jest');
+const hasJest = hasPackage('jest');
 
 const jestPreset = {
   // Run through every test file found
