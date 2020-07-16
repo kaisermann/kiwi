@@ -25,7 +25,7 @@ $ yarn add -D @kiwi/eslint-config @kiwi/prettier-config
 **.prettierrc**:
 
 ```json
-"@kiwi/prettier-config
+"@kiwi/prettier-config"
 ```
 
 _(that's the whole `.prettierrc`)_
