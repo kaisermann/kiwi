@@ -1,6 +1,9 @@
 {
-  "name": "eslint-config-kiwi",
+  "name": "@kiwi/eslint-config",
   "version": "1.3.4",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "A neat and opinionated eslint config",
   "main": "index.js",
   "keywords": [
