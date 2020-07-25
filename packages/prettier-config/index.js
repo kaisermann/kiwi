@@ -24,7 +24,7 @@ module.exports = {
   quoteProps: 'as-needed',
 
   // Print trailing commas wherever possible when multi-line. (A single-line array, for example, never gets trailing commas.)
-  trailingComma: 'es5',
+  trailingComma: 'all',
 
   // Print spaces between brackets in object literals.
   bracketSpacing: true,
