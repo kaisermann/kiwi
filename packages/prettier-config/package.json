@@ -15,11 +15,6 @@
   "files": [
     "*.js"
   ],
-  "scripts": {
-    "tag": "git tag -a v$npm_package_version -m \"Release v$npm_package_version\"",
-    "release": "git add package.json && git commit -m \"Release v$npm_package_version :tada:\"",
-    "prepublishOnly": "npm run release && npm run tag"
-  },
   "peerDependencies": {
     "prettier": "^2.0.5 || ^1.0.5"
   }
