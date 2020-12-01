@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
@@ -7,5 +7,7 @@
       "message": "chore(release): %v :tada:"
     }
   },
-  "packages": ["packages/*"]
+  "packages": [
+    "packages/*"
+  ]
 }
