@@ -1,9 +1,9 @@
 module.exports = {
   extends: [
     './index.js',
-    './rules/react.js',
-    './rules/react-hooks.js',
-    './rules/react-a11y.js',
+    './rules/react/react.js',
+    './rules/react/react-hooks.js',
+    './rules/react/react-a11y.js',
   ],
   overrides: [
     {
