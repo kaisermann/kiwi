@@ -21,10 +21,11 @@ const tsPreset = {
           'tsconfig{.eslint.json,.json}',
           // look in dirs like node/react
           // TODO: can these negations be smarter?
-          '!(node_modules)*/tsconfig{.eslint.json,.json}',
+          '*/tsconfig{.eslint.json,.json}',
           // look in dirs like packages/package/*
-          '!(node_modules)*/!(node_modules)*/tsconfig{.eslint.json,.json}',
+          '*/*/tsconfig{.eslint.json,.json}',
         ],
+        projectFolderIgnoreList: ['node_modules/**/*'],
       },
       rules: {
         // Enforce explicit accessibility modifiers on class properties and methods
@@ -201,6 +202,7 @@ const tsPreset = {
             format: null,
           },
           {
+            // todo
             // have to leave this for now as this rule
             // doesn't separate regular parameters from
             // destructured parameters
@@ -235,6 +237,33 @@ const tsPreset = {
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-types.md
         //! Commented because we use the recommended version of this rule
         // '@typescript-eslint/ban-types': 'off',
+
+        // Disallow // @ts comments
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-ts-comment.md
+        '@typescript-eslint/ban-ts-comment': [
+          'error',
+          {
+            'ts-expect-error': 'allow-with-description',
+            'ts-ignore': true,
+            'ts-nocheck': true,
+            'ts-check': false,
+            minimumDescriptionLength: 3,
+          },
+        ],
+
+        // Disallows unnecessary constraints on generic types
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-type-constraint.md
+        '@typescript-eslint/no-unnecessary-type-constraint': 'warn',
+
+        // Enforces consistent usage of type imports
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-imports.md
+        '@typescript-eslint/consistent-type-imports': [
+          'warn',
+          {
+            prefer: 'type-imports',
+            disallowTypeAnnotations: true,
+          },
+        ],
       },
     },
     {

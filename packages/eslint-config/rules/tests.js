@@ -6,6 +6,16 @@ const jestPreset = {
   // Run through every test file found
   files: ['*.{test,spec}.{ts,tsx,js,jsx}'],
   extends: ['plugin:jest/recommended', 'plugin:jest/style'],
+  settings: {
+    // need to explicitly set this for the IO apps.
+    // we need to explicitly define jest version because IO apps
+    // have jest installed in a subdirectory.
+    jest: {
+      ...(hasJest === false && {
+        version: 26,
+      }),
+    },
+  },
   rules: {
     // Enforce consistent a test method name
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/consistent-test-it.md
@@ -57,6 +67,10 @@ const jestPreset = {
     // TODO: enable?
     'jest/no-truthy-falsy': 'off',
   },
+
+  // Disallow deprecated jest functions
+  // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-deprecated-functions.md
+  'jest/no-deprecated-functions': 'error',
 };
 
 // Jest: https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules

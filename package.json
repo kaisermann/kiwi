@@ -1,7 +1,6 @@
 {
   "private": true,
   "name": "@kiwi/tooling",
-  "version": "1.0.0",
   "description": "🥝",
   "author": "Christian Kaisermann <christian@kaisermann.me>",
   "license": "MIT",
@@ -13,7 +12,8 @@
     "fix": "eslint --ext .js packages/ --fix; prettier --write packages/**/*.js"
   },
   "devDependencies": {
-    "eslint": "^6.0.0",
-    "prettier": "^2.0.5"
+    "eslint": "^7.13.0",
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.0"
   }
 }
