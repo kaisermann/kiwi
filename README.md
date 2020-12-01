@@ -7,6 +7,7 @@ _Kiwi Tooling_ is a very dear and hand-crafted front-end tooling preset that aim
 - ES6+ by default
 - Svelte (optional, must install `svelte`)
 - Typescript (optional, must install `typescript`)
+- Jest (optional, musrt install `jest`)
 
 ## Usage
 
