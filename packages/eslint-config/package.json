@@ -32,7 +32,16 @@
     "eslint-plugin-svelte3": "^2.7.3"
   },
   "peerDependenciesMeta": {
+    "prettier": {
+      "optional": true
+    },
     "svelte": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    },
+    "jest": {
       "optional": true
     }
   }
