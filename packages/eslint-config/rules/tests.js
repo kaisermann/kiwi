@@ -66,11 +66,12 @@ const jestPreset = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-truthy-falsy.md
     // TODO: enable?
     'jest/no-truthy-falsy': 'off',
+
+    // Disallow deprecated jest functions
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-deprecated-functions.md
+    'jest/no-deprecated-functions': 'error',
   },
 
-  // Disallow deprecated jest functions
-  // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-deprecated-functions.md
-  'jest/no-deprecated-functions': 'error',
 };
 
 // Jest: https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules
