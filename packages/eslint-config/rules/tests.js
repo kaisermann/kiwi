@@ -30,7 +30,7 @@ const jestPreset = {
     // Disallow alias methods
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-alias-methods.md
     // TODO: enable?
-    'jest/no-alias-methods': 'off',
+    'jest/no-alias-methods': 'error',
 
     // Disallow duplicate setup/teardown hooks
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-duplicate-hooks.md
@@ -55,7 +55,7 @@ const jestPreset = {
     // Disallow conditional logic inside tests
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-if.md
     // TODO: enable?
-    'jest/no-if': 'off',
+    'jest/no-if': 'error',
 
     // Disallow return statements from tests
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-test-return-statement.md
@@ -65,7 +65,7 @@ const jestPreset = {
     // Disallow toBeTruthy() and toBeFalsy()
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-truthy-falsy.md
     // TODO: enable?
-    'jest/no-truthy-falsy': 'off',
+    'jest/no-truthy-falsy': 'error',
 
     // Disallow deprecated jest functions
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-deprecated-functions.md

@@ -69,12 +69,12 @@ module.exports = {
     // Remove unneeded fragments
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md
     // TODO waiting for https://github.com/DefinitelyTyped/DefinitelyTyped/issues/20356
-    'react/jsx-no-useless-fragment': 'off',
+    'react/jsx-no-useless-fragment': 'error',
 
     // Enforce a standard way of defining function components
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
     // TODO enable?
-    'react/function-component-definition': 'off',
+    'react/function-component-definition': 'error',
 
     // Enforce jsx/tsx file extension
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
@@ -95,7 +95,7 @@ module.exports = {
     // Enforce a consistent way of using JSX Fragments
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react/jsx-fragments.md
     // See if there's a way to import the Fragment instead of using React.Fragment
-    'react/jsx-fragments': ['off', 'element'],
+    'react/jsx-fragments': ['error', 'element'],
 
     // Prevent usage of this.state inside setState calls
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-access-state-in-setstate.md
@@ -104,7 +104,7 @@ module.exports = {
     // Enforce each file to have no more than one component
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
     // TODO discuss
-    'react/no-multi-comp': 'off',
+    'react/no-multi-comp': 'error',
 
     // Warns if using shouldComponentUpdate in a PureComponent extended component
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-redundant-should-component-update.md
@@ -117,7 +117,7 @@ module.exports = {
     // Enforce the style attribute to be an object
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md
     // TODO maybe enable? it's annoying for the style prop of react-intl components
-    'react/style-prop-object': 'off',
+    'react/style-prop-object': 'error',
 
     // Prevent void DOM elements from receiving children
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/void-dom-elements-no-children.md

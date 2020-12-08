@@ -57,7 +57,7 @@ const tsPreset = {
         // TODO enable? maybe too much
         'no-magic-numbers': 'error',
         '@typescript-eslint/no-magic-numbers': [
-          'off',
+          'error',
           {
             ignore: [0, 1, 2, 3],
             ignoreArrayIndexes: true,
@@ -159,7 +159,7 @@ const tsPreset = {
 
         // Enforce explicit function return type
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md
-        '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/explicit-function-return-type': 'error',
 
         // Enforce a consistent way of typing arrays
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/array-type.mdv
@@ -173,7 +173,7 @@ const tsPreset = {
 
         // Enforce a consitent way to type objects
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-definitions.md
-        '@typescript-eslint/consistent-type-definitions': 'off',
+        '@typescript-eslint/consistent-type-definitions': 'error',
 
         // Disallow non null assertions (!), comes from the recommended config
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-non-null-assertion.md
@@ -242,12 +242,12 @@ const tsPreset = {
 
         // Explicitly defines what a module scoped method returns
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-module-boundary-types.md
-        '@typescript-eslint/explicit-module-boundary-types': 'off',
+        '@typescript-eslint/explicit-module-boundary-types': 'error',
 
         // Disallow harmful bultin types
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-types.md
         //! Commented because we use the recommended version of this rule
-        // '@typescript-eslint/ban-types': 'off',
+        // '@typescript-eslint/ban-types': 'error',
 
         // Disallow // @ts comments
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-ts-comment.md
@@ -280,9 +280,9 @@ const tsPreset = {
     {
       files: ['*.d.ts'],
       rules: {
-        'import/order': 'off',
-        'import/no-duplicates': 'off',
-        'import/export': 'off',
+        'import/order': 'error',
+        'import/no-duplicates': 'error',
+        'import/export': 'error',
       },
     },
   ],

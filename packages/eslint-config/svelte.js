@@ -9,7 +9,7 @@ module.exports = {
         $$props: true,
       },
       rules: {
-        'import/no-mutable-exports': 'off',
+        'import/no-mutable-exports': 'error',
       },
     },
   ],

@@ -40,7 +40,7 @@ module.exports = {
     // Require that JSX labels use "htmlFor"
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-for.md
     // deprecated: replaced by `label-has-associated-control` rule
-    'jsx-a11y/label-has-for': 'off',
+    'jsx-a11y/label-has-for': 'error',
 
     // Enforce that a label tag has a text label and an associated control.
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/b800f40a2a69ad48015ae9226fbe879f946757ed/docs/rules/label-has-associated-control.md
@@ -56,7 +56,7 @@ module.exports = {
     // Enforce that a control (an interactive element) has a text label.
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/control-has-associated-label.md
     'jsx-a11y/control-has-associated-label': [
-      'off',
+      'error',
       {
         ignoreElements: [
           'audio',
@@ -93,7 +93,7 @@ module.exports = {
 
     // Require onBlur instead of onChange
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-onchange.md
-    'jsx-a11y/no-onchange': 'off',
+    'jsx-a11y/no-onchange': 'error',
 
     // Elements with an interactive role and interaction handlers must be focusable
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/interactive-supports-focus.md
