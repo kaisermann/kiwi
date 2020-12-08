@@ -15,7 +15,7 @@ module.exports = {
 
     // Disallow use of console
     // https://eslint.org/docs/rules/no-console
-    'no-console': ['off', { allow: ['info', 'warn', 'error'] }],
+    'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
 
     // Disallow template literal placeholder syntax in regular strings
     // https://eslint.org/docs/rules/no-template-curly-in-string
@@ -23,7 +23,7 @@ module.exports = {
 
     // Disallow assignments that can lead to race conditions due to usage of await or yield
     // https://eslint.org/docs/rules/require-atomic-updates
-    'require-atomic-updates': 'off',
+    'require-atomic-updates': 'error',
 
     //! Require eslint >= 6.7.0
 

@@ -42,7 +42,7 @@ module.exports = {
     // Disallow use of variables before they are defined
     // https://eslint.org/docs/rules/no-use-before-define
     'no-use-before-define': [
-      'off',
+      'error',
       {
         functions: false,
         classes: false,

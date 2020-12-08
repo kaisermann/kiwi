@@ -60,7 +60,7 @@ const jestPreset = {
     // Disallow return statements from tests
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-test-return-statement.md
     // TODO: enable?
-    'jest/no-test-return-statement': 'off',
+    'jest/no-test-return-statement': 'error',
 
     // Disallow toBeTruthy() and toBeFalsy()
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-truthy-falsy.md

@@ -33,7 +33,7 @@ const tsPreset = {
 
         // Disallow declaration of variables already declared in the outer scope
         // https://eslint.org/docs/rules/no-shadow
-        'no-shadow': 'off',
+        'no-shadow': 'error',
         '@typescript-eslint/no-shadow': [
           'error',
           {
@@ -43,7 +43,7 @@ const tsPreset = {
 
         // Prevent unused declared variables
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md
-        'no-unused-vars': 'off',
+        'no-unused-vars': 'error',
         '@typescript-eslint/no-unused-vars': [
           'warn',
           {
@@ -55,7 +55,7 @@ const tsPreset = {
         // Disallows the use of eval()-like methods
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-magic-numbers.md
         // TODO enable? maybe too much
-        'no-magic-numbers': 'off',
+        'no-magic-numbers': 'error',
         '@typescript-eslint/no-magic-numbers': [
           'off',
           {
@@ -70,17 +70,17 @@ const tsPreset = {
 
         // Enforce parameters with default values to be last
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/default-param-last.md
-        'default-param-last': 'off',
+        'default-param-last': 'error',
         '@typescript-eslint/default-param-last': 'error',
 
         // Disallow useless constructors
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-useless-constructor.md
-        'no-useless-constructor': 'off',
+        'no-useless-constructor': 'error',
         '@typescript-eslint/no-useless-constructor': 'error',
 
         // Disallow empty functions, except for standalone funcs/arrows
         // https://eslint.org/docs/rules/no-empty-function
-        'no-empty-function': 'off',
+        'no-empty-function': 'error',
         '@typescript-eslint/no-empty-function': [
           'error',
           {
@@ -90,7 +90,7 @@ const tsPreset = {
 
         // Require a consistent naming convention
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
-        camelcase: 'off',
+        camelcase: 'error',
         '@typescript-eslint/naming-convention': [
           'error',
           {
@@ -129,7 +129,7 @@ const tsPreset = {
 
         // Disallow use of variables before they are defined
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-use-before-define.md
-        'no-use-before-define': 'off',
+        'no-use-before-define': 'error',
         '@typescript-eslint/no-use-before-define': [
           'error',
           {

@@ -31,7 +31,7 @@ module.exports = {
     // Enforce a maximum number of classes per file
     // https://eslint.org/docs/rules/max-classes-per-file
     // TODO, maybe turn on
-    'max-classes-per-file': ['off', 1],
+    'max-classes-per-file': ['error', 1],
 
     // Disallow the use of alert, confirm, and prompt
     // https://eslint.org/docs/rules/no-alert
@@ -110,7 +110,7 @@ module.exports = {
     // https://eslint.org/docs/rules/no-magic-numbers
     // TODO enable? maybe too much
     'no-magic-numbers': [
-      'off',
+      'error',
       {
         ignore: [0, 1, 2, 3],
         ignoreArrayIndexes: true,
@@ -171,7 +171,7 @@ module.exports = {
     // Disallow unnecessary catch clauses
     // https://eslint.org/docs/rules/no-useless-catch
     // TODO enable?
-    'no-useless-catch': 'off',
+    'no-useless-catch': 'error',
 
     // Disallow unnecessary string escaping
     // https://eslint.org/docs/rules/no-useless-escape
@@ -230,7 +230,7 @@ module.exports = {
     // https://eslint.org/docs/rules/prefer-arrow-callback
     // TODO discussion
     'prefer-arrow-callback': [
-      'off',
+      'error',
       {
         allowNamedFunctions: false,
         allowUnboundThis: true,

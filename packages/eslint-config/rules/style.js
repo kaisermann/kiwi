@@ -26,7 +26,7 @@ module.exports = {
 
     // Disallow comments inline after code
     // https://eslint.org/docs/rules/no-inline-comments
-    'no-inline-comments': 'off',
+    'no-inline-comments': 'error',
 
     // Require or disallow newlines around directives
     // https://eslint.org/docs/rules/lines-around-directive
@@ -72,7 +72,7 @@ module.exports = {
     // Disallow negated conditions
     // https://eslint.org/docs/rules/no-negated-condition
     // TODO discuss, maybe too much
-    'no-negated-condition': 'off',
+    'no-negated-condition': 'error',
 
     // Disallow use of the Object constructor
     // https://eslint.org/docs/rules/no-new-object

@@ -5,12 +5,12 @@ module.exports = {
   rules: {
     // Disallow use of process.env
     // https://eslint.org/docs/rules/no-process-env
-    'no-process-env': 'off',
+    'no-process-env': 'error',
 
     // Enforce a callback to return
     // https://eslint.org/docs/rules/callback-return
     //! maybe too annoying
-    'callback-return': 'off',
+    'callback-return': 'error',
 
     // Require all requires be top-level
     // https://eslint.org/docs/rules/global-require
