@@ -1,12 +1,7 @@
 // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/
 module.exports = {
   extends: ['plugin:jsx-a11y/recommended'],
-  plugins: ['jsx-a11y', 'react'],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
+  plugins: ['jsx-a11y'],
   rules: {
     // Enforce that anchors have content
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-has-content.md
@@ -274,4 +269,4 @@ module.exports = {
       },
     ],
   },
-}
+};
