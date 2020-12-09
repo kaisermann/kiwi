@@ -4,10 +4,9 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
+      "ignoreChanges": ["*.md"],
       "message": "chore(release): %v :tada:"
     }
   },
-  "packages": [
-    "packages/*"
-  ]
+  "packages": ["packages/*"]
 }

@@ -8,6 +8,7 @@
     "packages/*"
   ],
   "scripts": {
+    "publish": "lerna publish --force-publish --conventional-commits",
     "lint": "eslint --ext .js packages/",
     "fix": "eslint --ext .js packages/ --fix; prettier --write packages/**/*.js"
   },
