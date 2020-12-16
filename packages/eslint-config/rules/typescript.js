@@ -25,7 +25,7 @@ const tsPreset = {
           // look in dirs like packages/package/*
           '*/*/tsconfig{.eslint.json,.json}',
         ],
-        projectFolderIgnoreList: ['node_modules/**/*'],
+        projectFolderIgnoreList: [/node_modules/i],
       },
       rules: {
         //! extensions of native eslint rules
