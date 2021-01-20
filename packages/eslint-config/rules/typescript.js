@@ -37,7 +37,20 @@ const tsPreset = {
         '@typescript-eslint/no-shadow': [
           'error',
           {
-            allow: ['done', 'next', 'resolve', 'reject', 'cb'],
+            allow: [
+              'cb',
+              'callback',
+              'data',
+              'done',
+              'error',
+              'item',
+              'items',
+              'next',
+              'reject',
+              'res',
+              'resolve',
+              'response',
+            ],
           },
         ],
 

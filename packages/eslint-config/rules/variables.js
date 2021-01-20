@@ -9,7 +9,7 @@ module.exports = {
     // Disallow specific globals
     // https://eslint.org/docs/rules/no-restricted-globals
     'no-restricted-globals': ['error', 'isFinite', 'isNaN'].concat(
-      confusingBrowserGlobals
+      confusingBrowserGlobals,
     ),
 
     // Disallow declaration of variables already declared in the outer scope
@@ -17,7 +17,20 @@ module.exports = {
     'no-shadow': [
       'error',
       {
-        allow: ['done', 'next', 'resolve', 'reject', 'cb'],
+        allow: [
+          'cb',
+          'callback',
+          'data',
+          'done',
+          'error',
+          'item',
+          'items',
+          'next',
+          'reject',
+          'res',
+          'resolve',
+          'response',
+        ],
       },
     ],
 
