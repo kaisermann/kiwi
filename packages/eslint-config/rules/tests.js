@@ -1,10 +1,23 @@
 const { hasPackage } = require('../lib/utils');
 
+const hasCypress = hasPackage('cypress');
 const hasJest = hasPackage('jest');
+
+const cypressPreset = {
+  files: ['**/cypress/**/*.{ts,tsx,js,jsx}'],
+  extends: ['plugin:cypress/recommended'],
+  rules: {
+    // Enforce assertions before taking a screenshot
+    // https://github.com/cypress-io/eslint-plugin-cypress/blob/master/docs/rules/assertion-before-screenshot.md
+    'cypress/assertion-before-screenshot': 'warn',
+  },
+};
 
 const jestPreset = {
   // Run through every test file found
   files: ['*.{test,spec}.{ts,tsx,js,jsx}'],
+  // Unless it's inside a cypress directory
+  excludedFiles: ['**/cypress/**'],
   extends: ['plugin:jest/recommended', 'plugin:jest/style'],
   settings: {
     // need to explicitly set this for the IO apps.
@@ -71,10 +84,11 @@ const jestPreset = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-deprecated-functions.md
     'jest/no-deprecated-functions': 'error',
   },
-
 };
 
 // Jest: https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules
 module.exports = {
-  overrides: [hasJest && jestPreset].filter(Boolean),
+  overrides: [hasCypress && cypressPreset, hasJest && jestPreset].filter(
+    Boolean,
+  ),
 };
