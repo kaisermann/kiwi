@@ -122,5 +122,11 @@ module.exports = {
     // Prevent void DOM elements from receiving children
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/void-dom-elements-no-children.md
     'react/void-dom-elements-no-children': 'error',
+
+    //! Since React v17, there's no need to import React explicitly
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-jsx-uses-react.md
+    'react/jsx-uses-react': 'off',
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
+    'react/react-in-jsx-scope': 'off',
   },
 };
