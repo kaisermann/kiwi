@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](/compare/v1.7.0...v1.8.0) (2021-01-28)
+
+
+### Features
+
+* 🎸 disable React scope related rules 93f42ab
+
+
+
+
+
 # [1.7.0](/compare/v1.6.3...v1.7.0) (2021-01-20)
 
 
