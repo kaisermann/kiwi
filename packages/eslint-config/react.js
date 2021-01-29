@@ -11,6 +11,8 @@ module.exports = {
       excludedFiles: [
         '*{_,.}{test,spec}.{ts,tsx,js,jsx}',
         '{__tests__,tests}/**/*',
+        '*.config.{ts,tsx,js,jsx}',
+        '.*rc.{ts,tsx,js,jsx}',
       ],
       // activate these rules in react files not related to testing
       rules: {
