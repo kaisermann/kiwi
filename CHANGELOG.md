@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.1](/compare/v1.9.0...v1.9.1) (2021-01-29)
+
+
+### Bug Fixes
+
+* 🐛 allow node imports on config files 98b96fb
+
+
+
+
+
 # [1.9.0](/compare/v1.8.0...v1.9.0) (2021-01-28)
 
 
