@@ -1,3 +1,5 @@
+const { CONFIG_FILES_GlOBS } = require('../lib/consts.js');
+
 module.exports = {
   plugins: ['node'],
   env: {
@@ -39,4 +41,14 @@ module.exports = {
     'node/prefer-promises/fs': 'warn',
     'node/prefer-promises/dns': 'warn',
   },
+  overrides: [
+    {
+      files: CONFIG_FILES_GlOBS,
+      rules: {
+        // Require all requires be top-level
+        // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/global-require.md
+        'node/global-require': 'off',
+      },
+    },
+  ],
 };

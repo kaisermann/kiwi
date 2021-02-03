@@ -1,3 +1,5 @@
+const { CONFIG_FILES_GlOBS } = require('./lib/consts.js');
+
 module.exports = {
   extends: [
     './index.js',
@@ -11,8 +13,7 @@ module.exports = {
       excludedFiles: [
         '*{_,.}{test,spec}.{ts,tsx,js,jsx}',
         '{__tests__,tests}/**/*',
-        '*.config.{ts,tsx,js,jsx}',
-        '.*rc.{ts,tsx,js,jsx}',
+        ...CONFIG_FILES_GlOBS,
       ],
       // activate these rules in react files not related to testing
       rules: {
