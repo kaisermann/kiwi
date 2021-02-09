@@ -128,10 +128,9 @@ module.exports = {
       'error',
       'always',
       {
-        markers: ['/'],
         line: {
           exceptions: ['-', '+'],
-          markers: ['-', '+', '?', '!'],
+          markers: ['-', '+', '?', '!', '/'],
         },
         block: {
           exceptions: ['-', '+'],
