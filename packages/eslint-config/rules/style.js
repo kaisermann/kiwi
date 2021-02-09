@@ -5,7 +5,6 @@ module.exports = {
     // https://eslint.org/docs/rules/curly
     curly: ['error', 'multi-line', 'consistent'],
 
-
     // Require camel case names
     // https://eslint.org/docs/rules/camelcase
     camelcase: [
@@ -129,6 +128,7 @@ module.exports = {
       'error',
       'always',
       {
+        markers: ['/'],
         line: {
           exceptions: ['-', '+'],
           markers: ['-', '+', '?', '!'],
