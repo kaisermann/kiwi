@@ -4,7 +4,7 @@ const hasCypress = hasPackage('cypress');
 const hasJest = hasPackage('jest');
 
 const cypressPreset = {
-  files: ['**/cypress/**/*.{ts,tsx,js,jsx}'],
+  files: TEST_GLOBS.cypress,
   extends: ['plugin:cypress/recommended'],
   rules: {
     // Enforce assertions before taking a screenshot
@@ -15,7 +15,7 @@ const cypressPreset = {
 
 const jestPreset = {
   // Run through every test file found
-  files: ['*.{test,spec}.{ts,tsx,js,jsx}'],
+  files: TEST_GLOBS.jest,
   // Unless it's inside a cypress directory
   excludedFiles: ['**/cypress/**'],
   extends: ['plugin:jest/recommended', 'plugin:jest/style'],

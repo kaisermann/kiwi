@@ -1,4 +1,6 @@
 const { hasPackage } = require('../lib/utils');
+const { hasPackage } = require('../lib/utils');
+const { TEST_GLOB_LIST } = require('../lib/consts');
 
 const hasTypescript = hasPackage('typescript');
 
@@ -296,6 +298,13 @@ const tsPreset = {
         'import/order': 'off',
         'import/no-duplicates': 'off',
         'import/export': 'off',
+      },
+    },
+    {
+      //* Diasble this rules on test files
+      files: TEST_GLOB_LIST,
+      rules: {
+        '@typescript-eslint/no-non-null-assertion': 'off',
       },
     },
   ],
