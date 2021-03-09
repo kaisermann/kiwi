@@ -1,5 +1,4 @@
 const { hasPackage } = require('../lib/utils');
-const { hasPackage } = require('../lib/utils');
 const { TEST_GLOB_LIST } = require('../lib/consts');
 
 const hasTypescript = hasPackage('typescript');
