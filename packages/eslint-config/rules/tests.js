@@ -1,4 +1,5 @@
 const { hasPackage } = require('../lib/utils');
+const { TEST_GLOBS } = require('../lib/consts');
 
 const hasCypress = hasPackage('cypress');
 const hasJest = hasPackage('jest');
