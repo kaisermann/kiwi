@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.2](/compare/v1.11.1...v1.11.2) (2021-03-09)
+
+
+### Bug Fixes
+
+* 🐛 remove duped import c3529f8
+
+
+
+
+
 ## [1.11.1](/compare/v1.11.0...v1.11.1) (2021-03-09)
 
 
