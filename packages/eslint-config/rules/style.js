@@ -181,7 +181,6 @@ module.exports = {
         next: '*',
       },
       // import/order already handle padding lines between cjs-imports
-      // see https://github.com/vtex/typescript/issues/82
       {
         blankLine: 'any',
         prev: ['cjs-import'],
