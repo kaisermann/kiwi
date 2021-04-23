@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.5](/compare/v1.11.4...v1.11.5) (2021-04-23)
+
+**Note:** Version bump only for package @kiwi/prettier-config
+
+
+
+
+
 ## [1.11.4](/compare/v1.11.3...v1.11.4) (2021-04-23)
 
 **Note:** Version bump only for package @kiwi/prettier-config

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.5](/compare/v1.11.4...v1.11.5) (2021-04-23)
+
+
+### Bug Fixes
+
+* improve spacing for switch cases - again 6481da6
+
+
+
+
+
 ## [1.11.4](/compare/v1.11.3...v1.11.4) (2021-04-23)
 
 
