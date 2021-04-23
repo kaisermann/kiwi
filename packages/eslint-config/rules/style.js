@@ -171,8 +171,8 @@ module.exports = {
       // empty lines between switch cases and breaks
       {
         blankLine: 'always',
-        prev: ['case', 'break'],
-        next: ['case', 'break', 'default'],
+        prev: ['break', 'return'],
+        next: ['case', 'default'],
       },
       // always require blankline after function, class declarations and multiline blocks (if, try-catch, etc)
       {
