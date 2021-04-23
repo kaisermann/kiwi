@@ -162,10 +162,27 @@ module.exports = {
         prev: ['multiline-const', 'multiline-let', 'multiline-var'],
         next: '*',
       },
-      // empty lines before returns
+      // empty line before every return
       {
         blankLine: 'always',
         prev: '*',
+        next: 'return',
+      },
+      // but allow it to be next to a single-line if
+      // if(cond) return
+      // return
+      {
+        blankLine: 'any',
+        prev: 'if',
+        next: 'return',
+      },
+      // but to do that we must explicitly disallow a single-line if with a block
+      // We don't want this:
+      // if(cond) { return }
+      // return
+      {
+        blankLine: 'always',
+        prev: 'block-like',
         next: 'return',
       },
       // empty lines between switch cases and breaks
