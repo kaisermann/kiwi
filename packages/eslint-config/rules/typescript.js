@@ -260,8 +260,29 @@ const tsPreset = {
 
         // Disallow harmful bultin types
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-types.md
-        //! Commented because we use the recommended version of this rule
-        // '@typescript-eslint/ban-types': 'off',
+        '@typescript-eslint/ban-types': [
+          'error',
+          {
+            types: {
+              String: {
+                message: 'Use string instead',
+                fixWith: 'string',
+              },
+              Boolean: {
+                message: 'Use boolean instead',
+                fixWith: 'boolean',
+              },
+              Number: {
+                message: 'Use number instead',
+                fixWith: 'number',
+              },
+              Symbol: {
+                message: 'Use symbol instead',
+                fixWith: 'symbol',
+              },
+            },
+          },
+        ],
 
         // Disallow // @ts comments
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-ts-comment.md
