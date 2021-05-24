@@ -23,6 +23,18 @@ module.exports = {
           'internal',
           ['parent', 'sibling', 'index'],
         ],
+        pathGroups: [
+          {
+            // treat @/... and $/... as internal paths
+            pattern: '{$,@}/**',
+            group: 'internal',
+          },
+          {
+            pattern: '*.json',
+            group: 'object',
+            patternOptions: { matchBase: true },
+          },
+        ],
       },
     ],
 
