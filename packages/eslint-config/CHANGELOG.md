@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.14.0](/compare/v1.13.1...v1.14.0) (2021-05-24)
+
+
+### Features
+
+* 🎸 handle @/ and $/ paths as internal fc1d5c2
+
+
+
+
+
 ## [1.13.1](/compare/v1.13.0...v1.13.1) (2021-04-30)
 
 **Note:** Version bump only for package @kiwi/eslint-config
