@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.16.1](https://github.com/kaisermann/kiwi/compare/v1.16.0...v1.16.1) (2021-06-11)
+
+
+### Bug Fixes
+
+* set maxStatements to 2 ([2604cba](https://github.com/kaisermann/kiwi/commit/2604cbaad1d4bd959c88afbd613c65c0f0a25ca9))
+
+
+
+
+
 # [1.16.0](https://github.com/kaisermann/kiwi/compare/v1.15.2...v1.16.0) (2021-06-11)
 
 
