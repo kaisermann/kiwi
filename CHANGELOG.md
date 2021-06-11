@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.16.0](/compare/v1.15.2...v1.16.0) (2021-06-11)
+
+
+### Features
+
+* add maxStatements to descriptive-react-effect 71cc654
+
+
+
+
+
 ## [1.15.2](/compare/v1.15.1...v1.15.2) (2021-06-11)
 
 

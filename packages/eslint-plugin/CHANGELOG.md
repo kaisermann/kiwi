@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.16.0](https://github.com/kaisermann/kiwi/compare/v1.15.2...v1.16.0) (2021-06-11)
+
+
+### Features
+
+* add maxStatements to descriptive-react-effect ([71cc654](https://github.com/kaisermann/kiwi/commit/71cc65481d82e23d4c3e6d0e9486a8334127cf62))
+
+
+
+
+
 ## [1.15.2](https://github.com/kaisermann/kiwi/compare/v1.15.1...v1.15.2) (2021-06-11)
 
 
