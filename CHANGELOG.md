@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.15.0](/compare/v1.14.0...v1.15.0) (2021-06-11)
+
+
+### Features
+
+* add react-descriptive-effect rule 4cd3ae0
+
+
+
+
+
 # [1.14.0](/compare/v1.13.1...v1.14.0) (2021-05-24)
 
 
