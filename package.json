@@ -13,6 +13,7 @@
     "fix": "eslint --ext .js packages/ --fix; prettier --write packages/**/*.js"
   },
   "devDependencies": {
+    "@types/eslint": "^7.2.13",
     "eslint": "^7.13.0",
     "lerna": "^3.22.1",
     "prettier": "^2.2.0"
