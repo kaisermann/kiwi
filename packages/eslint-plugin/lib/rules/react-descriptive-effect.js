@@ -76,11 +76,11 @@ function create(context) {
         callback.body.type === 'CallExpression' ||
         callback.body.type === 'ConditionalExpression' ||
         callback.body.type === 'LogicalExpression' ||
-        (callback.body.body.length > 0 && callback.body.body.length <= maxStatements)
+        (callback.body.body.length > 0 &&
+          callback.body.body.length <= maxStatements)
       ) {
         return;
       }
-      console.log(callback.body)
 
       // arrow function ou unnamed
       context.report({
