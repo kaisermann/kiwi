@@ -6,7 +6,9 @@ module.exports = {
     './rules/react/react.js',
     './rules/react/react-hooks.js',
     './rules/react/react-a11y.js',
+    'plugin:@kiwi/react'
   ],
+  plugins: ['@kiwi'],
   overrides: [
     {
       files: '**/*.{ts,tsx,js,jsx}',

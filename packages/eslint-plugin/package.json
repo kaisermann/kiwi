@@ -1,0 +1,39 @@
+{
+  "name": "@kiwi/eslint-plugin",
+  "version": "1.14.0",
+  "description": "Kiwi ESLint plugin",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaisermann/kiwi.git"
+  },
+  "contributors": [
+    "Christian Kaisermann <christian@kaisermann.me>"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-plugin"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "collectCoverage": false
+  },
+  "devDependencies": {
+    "@typescript-eslint/experimental-utils": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "jest": "^24.8.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6 || ^7"
+  }
+}
