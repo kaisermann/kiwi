@@ -67,6 +67,14 @@ function create(context) {
     const { id: callbackId } = callback;
 
     if (callbackId == null) {
+      if (
+        callback.body.type === 'CallExpression' ||
+        callback.body.type === 'ConditionalExpression' ||
+        callback.body.type === 'LogicalExpression'
+      ) {
+        return;
+      }
+
       // arrow function ou unnamed
       context.report({
         node: callback,

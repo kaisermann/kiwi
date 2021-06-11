@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
     // Disallow unnamed effects
-    '@kiwi/react-descriptive-effect': ['error'],
+    '@kiwi/react-descriptive-effect': ['warn'],
   },
 };

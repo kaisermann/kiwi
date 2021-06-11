@@ -27,6 +27,21 @@ ruleTester.run('react-descriptive-effect', rule, {
         useEffect(() => {})
       }`,
     },
+    {
+      code: `function foo() {
+        useEffect(() => setPotato('potato'))
+      }`,
+    },
+    {
+      code: `function foo() {
+        useEffect(() => foo ? setPotato('potato') : noop())
+      }`,
+    },
+    {
+      code: `function foo() {
+        useEffect(() => foo && setPotato('potato'))
+      }`,
+    },
   ],
 
   invalid: [
@@ -60,9 +75,11 @@ ruleTester.run('react-descriptive-effect', rule, {
         useIceCreamEffect(() => {});
       }`,
       errors: [getError('ArrowFunctionExpression')],
-      options: [{
-        additionalHooks: '(usePotato|use*Effect)',
-      }],
+      options: [
+        {
+          additionalHooks: '(usePotato|use*Effect)',
+        },
+      ],
     },
   ],
 });

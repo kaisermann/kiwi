@@ -2,6 +2,8 @@
 
 Effect hooks are quite handy, but things can quickly get out of control and, suddenly, you see yourself trying to decode what one of six gigantic `useEffect`s is supposed to do. This rule encourages the developer to describe the effect by using a named function or a descriptive comment above the hook.
 
+One liners are currently allowed.
+
 ## Rule Details
 
 The following patterns are considered warnings:
