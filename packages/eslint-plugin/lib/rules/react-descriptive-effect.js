@@ -1,7 +1,7 @@
 const { getDocUrl } = require('../includes/getDocUrl.js');
 
 const DEFAULT_OPTIONS = {
-  maxStatements: 3,
+  maxStatements: 2,
 };
 
 const meta = {
@@ -80,6 +80,7 @@ function create(context) {
       ) {
         return;
       }
+      console.log(callback.body)
 
       // arrow function ou unnamed
       context.report({
