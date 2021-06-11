@@ -7,6 +7,9 @@
     "index.js",
     "lib/"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -35,5 +38,6 @@
   },
   "peerDependencies": {
     "eslint": "^6 || ^7"
-  }
+  },
+  "gitHead": "a3d7b4180a85d108cd9efa91678969550aff0c94"
 }
