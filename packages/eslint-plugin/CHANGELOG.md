@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.15.2](https://github.com/kaisermann/kiwi/compare/v1.15.1...v1.15.2) (2021-06-11)
+
+
+### Bug Fixes
+
+* allow one-liners ([baef902](https://github.com/kaisermann/kiwi/commit/baef902872f0275d17695db318b73708a14acc94))
+
+
+
+
+
 ## [1.15.1](https://github.com/kaisermann/kiwi/compare/v1.15.0...v1.15.1) (2021-06-11)
 
 **Note:** Version bump only for package @kiwi/eslint-plugin
