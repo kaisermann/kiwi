@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.15.1](/compare/v1.15.0...v1.15.1) (2021-06-11)
+
+
+### Bug Fixes
+
+* rollback deps 80eb256
+
+
+
+
+
 # [1.15.0](/compare/v1.14.0...v1.15.0) (2021-06-11)
 
 
