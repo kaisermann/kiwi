@@ -42,6 +42,30 @@ ruleTester.run('react-descriptive-effect', rule, {
         useEffect(() => foo && setPotato('potato'))
       }`,
     },
+    {
+      code: `function foo() {
+        useEffect(() => {
+          foo()
+          bar()
+        });
+      }`,
+      errors: [getError('ArrowFunctionExpression')],
+    },
+    {
+      code: `function foo() {
+        useEffect(() => {
+          foo()
+          baz()
+          bar()
+        });
+      }`,
+      errors: [getError('ArrowFunctionExpression')],
+      options: [
+        {
+          maxStatements: 3,
+        },
+      ],
+    },
   ],
 
   invalid: [
@@ -78,6 +102,34 @@ ruleTester.run('react-descriptive-effect', rule, {
       options: [
         {
           additionalHooks: '(usePotato|use*Effect)',
+        },
+      ],
+    },
+    {
+      code: `function foo() {
+        usePotato(() => {});
+        useIceCreamEffect(() => {});
+      }`,
+      errors: [getError('ArrowFunctionExpression')],
+      options: [
+        {
+          additionalHooks: '(usePotato|use*Effect)',
+        },
+      ],
+    },
+    {
+      code: `function foo() {
+        useEffect(() => {
+          if(foo()) {
+            baz()
+          }
+          bar()
+        });
+      }`,
+      errors: [getError('ArrowFunctionExpression')],
+      options: [
+        {
+          maxStatements: 1,
         },
       ],
     },

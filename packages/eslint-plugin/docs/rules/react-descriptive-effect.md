@@ -11,13 +11,17 @@ The following patterns are considered warnings:
 ```js
 function Comp1() {
   useEffect(() => {
-    setState('potato');
+    setPotato('fried');
+    setDrink('soda');
+    setDesert('iceCream');
   });
 }
 
 function Comp2() {
   useLayoutEffect(function () {
-    setState('potato');
+    setPotato('fried');
+    setDrink('soda');
+    setDesert('iceCream');
   });
 }
 ```
@@ -27,19 +31,23 @@ The following patterns are not warnings:
 ```js
 function Comp3() {
   useLayoutEffect(function updatePotato() {
-    setState('potato');
+    setPotato('fried');
+    setDrink('soda');
+    setDesert('iceCream');
   });
 }
 
 function Comp4() {
-  // Updates a potato
+  // Updates lunch items
   useEffect(() => {
-    setState('potato');
+    setPotato('fried');
+    setDrink('soda');
+    setDesert('iceCream');
   });
 }
 
 function Comp5() {
-  useEffect(() => setState('potato'));
+  useEffect(() => setPotato('fried'));
 }
 ```
 
@@ -50,27 +58,44 @@ This plugin takes an option object:
 ```ts
 interface Options {
   additionalHooks: string; // RegExp default: undefined
+  maxStatements: number; // default: 2
 }
 ```
 
 - `additionalHooks`: specifies additional hooks this rule should considered.
+- `maxStatements`: specifies additional hooks this rule should considered.
 
 **Example:**
 
-The following config object:
+With the config object:
 
 ```json
 {
-  "additionalHooks": "(usePotato|use*Effect)"
+  "additionalHooks": "(usePotato|use*Effect)",
+  "maxStatements": 3
 }
 ```
 
-Would make these invalid:
+The following patterns are considered warnings:
 
 ```js
 function Comp5() {
   usePotato(() => {
-    setState('potato');
+    setPotato('fried');
+  });
+
+  useIceCreamEffect(function () {
+    setState('iceCream');
+  });
+}
+```
+
+The following patterns are not considered warnings:
+
+```js
+function Comp5() {
+  usePotato(() => {
+    setPotato('fried');
   });
 
   useIceCreamEffect(function () {

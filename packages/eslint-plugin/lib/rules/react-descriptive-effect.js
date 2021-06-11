@@ -1,6 +1,8 @@
 const { getDocUrl } = require('../includes/getDocUrl.js');
 
-const DEFAULT_OPTIONS = {};
+const DEFAULT_OPTIONS = {
+  maxStatements: 3,
+};
 
 const meta = {
   docs: {
@@ -16,6 +18,9 @@ const meta = {
       properties: {
         additionalHooks: {
           type: 'string',
+        },
+        maxStatements: {
+          type: 'number',
         },
       },
     },
@@ -46,7 +51,7 @@ function create(context) {
     ...(context.options[0] || null),
   };
 
-  const { additionalHooks } = options;
+  const { additionalHooks, maxStatements } = options;
 
   function checkCallExpression(callExpressionNode) {
     if (!isEffectHook(callExpressionNode.callee.name, additionalHooks)) return;
@@ -70,7 +75,8 @@ function create(context) {
       if (
         callback.body.type === 'CallExpression' ||
         callback.body.type === 'ConditionalExpression' ||
-        callback.body.type === 'LogicalExpression'
+        callback.body.type === 'LogicalExpression' ||
+        (callback.body.body.length > 0 && callback.body.body.length <= maxStatements)
       ) {
         return;
       }
