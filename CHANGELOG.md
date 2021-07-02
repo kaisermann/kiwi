@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.16.4](/compare/v1.16.3...v1.16.4) (2021-07-02)
+
+
+### Bug Fixes
+
+* eslint preset a91da9b
+
+
+
+
+
 ## [1.16.3](/compare/v1.16.2...v1.16.3) (2021-07-01)
 
 
