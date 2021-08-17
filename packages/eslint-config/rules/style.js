@@ -68,8 +68,9 @@ module.exports = {
     'no-array-constructor': 'error',
 
     // Disallow if as the only statement in an else block
+    // Note: disabled for better code readability
     // https://eslint.org/docs/rules/no-lonely-if
-    'no-lonely-if': 'error',
+    'no-lonely-if': 'off',
 
     // Disallow use of chained assignment expressions
     // https://eslint.org/docs/rules/no-multi-assign
