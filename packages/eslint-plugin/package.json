@@ -1,6 +1,6 @@
 {
   "name": "@kiwi/eslint-plugin",
-  "version": "1.16.4",
+  "version": "1.16.5",
   "description": "Kiwi ESLint plugin",
   "main": "index.js",
   "files": [
