@@ -104,45 +104,6 @@ const tsPreset = {
           },
         ],
 
-        // Require a consistent naming convention
-        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
-        camelcase: 'off',
-        '@typescript-eslint/naming-convention': [
-          'error',
-          {
-            selector: 'default',
-            format: ['camelCase'],
-            leadingUnderscore: 'allow',
-            trailingUnderscore: 'allow',
-          },
-          {
-            selector: 'variable',
-            format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
-            leadingUnderscore: 'allow',
-            trailingUnderscore: 'allow',
-          },
-          {
-            selector: 'function',
-            format: ['camelCase', 'PascalCase'],
-          },
-          {
-            selector: 'typeLike',
-            format: ['PascalCase'],
-          },
-          {
-            selector: 'memberLike',
-            format: null,
-          },
-          {
-            // todo
-            // have to leave this for now as this rule
-            // doesn't separate regular parameters from
-            // destructured parameters
-            selector: 'parameter',
-            format: null,
-          },
-        ],
-
         // Disallow use of variables before they are defined
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-use-before-define.md
         'no-use-before-define': 'off',
@@ -195,15 +156,6 @@ const tsPreset = {
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-non-null-assertion.md
         '@typescript-eslint/no-non-null-assertion': 'warn',
 
-        // Enforce that when adding two variables, operands must both be of type number or of type string
-        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-plus-operands.md
-        '@typescript-eslint/restrict-plus-operands': [
-          'error',
-          {
-            checkCompoundAssignments: true,
-          },
-        ],
-
         // Enforce optional chaining over chaining AND (&&) operators
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-optional-chain.md
         '@typescript-eslint/prefer-optional-chain': 'warn',
@@ -212,45 +164,9 @@ const tsPreset = {
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-non-null-asserted-optional-chain.md
         '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
 
-        // Enforce nullish coalescing over short-circuiting
-        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-nullish-coalescing.md
-        '@typescript-eslint/prefer-nullish-coalescing': [
-          'warn',
-          {
-            ignoreConditionalTests: true,
-            ignoreMixedLogicalExpressions: true,
-            forceSuggestionFixer: false,
-          },
-        ],
-
         // Prefer usage of as const over literal type
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-as-const.md
-        // TODO: turn it on when 2.18.x is out
-        // '@typescript-eslint/prefer-as-const': 'error',
-
-        // Prevent unnecessary type arguments
-        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-type-arguments.md
-        '@typescript-eslint/no-unnecessary-type-arguments': 'warn',
-
-        // Warns when a namespace qualifier is unnecessary
-        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-qualifier.md
-        '@typescript-eslint/no-unnecessary-qualifier': 'warn',
-
-        // Disallow throwing literals as exceptions
-        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-throw-literal.md
-        '@typescript-eslint/no-throw-literal': 'warn',
-
-        // Disallows invocation of require() in favor of import statements
-        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-require-imports.md
-        '@typescript-eslint/no-require-imports': 'warn',
-
-        // Disallows the use of eval()-like methods
-        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implied-eval.md
-        '@typescript-eslint/no-implied-eval': 'error',
-
-        // Requires Array#sort calls to always provide a compareFunction
-        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/require-array-sort-compare.md
-        '@typescript-eslint/require-array-sort-compare': 'error',
+        '@typescript-eslint/prefer-as-const': 'error',
 
         // Enforce explicit enum item values
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-enum-initializers.md
@@ -312,6 +228,123 @@ const tsPreset = {
             disallowTypeAnnotations: true,
           },
         ],
+
+        //! Rules that require type-check
+
+        // Require a consistent naming convention
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
+        camelcase: 'off',
+        '@typescript-eslint/naming-convention': [
+          'error',
+          {
+            selector: 'default',
+            format: ['camelCase'],
+            leadingUnderscore: 'allow',
+            trailingUnderscore: 'allow',
+          },
+          {
+            selector: 'variable',
+            format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
+            leadingUnderscore: 'allow',
+            trailingUnderscore: 'allow',
+          },
+          {
+            selector: 'function',
+            format: ['camelCase', 'PascalCase'],
+          },
+          {
+            selector: 'typeLike',
+            format: ['PascalCase'],
+          },
+          {
+            selector: 'memberLike',
+            format: null,
+          },
+          {
+            // todo
+            // have to leave this for now as this rule
+            // doesn't separate regular parameters from
+            // destructured parameters
+            selector: 'parameter',
+            format: null,
+          },
+        ],
+
+        // Enforce that when adding two variables, operands must both be of type number or of type string
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-plus-operands.md
+        '@typescript-eslint/restrict-plus-operands': [
+          'error',
+          {
+            checkCompoundAssignments: true,
+          },
+        ],
+
+        // Enforce nullish coalescing over short-circuiting
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-nullish-coalescing.md
+        '@typescript-eslint/prefer-nullish-coalescing': [
+          'warn',
+          {
+            ignoreConditionalTests: true,
+            ignoreMixedLogicalExpressions: true,
+            forceSuggestionFixer: false,
+          },
+        ],
+
+        // Prevent unnecessary type arguments
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-type-arguments.md
+        '@typescript-eslint/no-unnecessary-type-arguments': 'warn',
+
+        // Warns when a namespace qualifier is unnecessary
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-qualifier.md
+        '@typescript-eslint/no-unnecessary-qualifier': 'warn',
+
+        // Disallow throwing literals as exceptions
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-throw-literal.md
+        '@typescript-eslint/no-throw-literal': 'warn',
+
+        // Disallows invocation of require() in favor of import statements
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-require-imports.md
+        '@typescript-eslint/no-require-imports': 'warn',
+
+        // Disallows the use of eval()-like methods
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implied-eval.md
+        '@typescript-eslint/no-implied-eval': 'error',
+
+        // Requires Array#sort calls to always provide a compareFunction
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/require-array-sort-compare.md
+        '@typescript-eslint/require-array-sort-compare': 'error',
+
+        // '@typescript-eslint/await-thenable': 'off',
+        // '@typescript-eslint/no-base-to-string': 'off',
+        // '@typescript-eslint/no-confusing-void-expression': 'off',
+        // '@typescript-eslint/no-floating-promises': 'off',
+        // '@typescript-eslint/no-for-in-array': 'off',
+        // '@typescript-eslint/no-meaningless-void-operator': 'off',
+        // '@typescript-eslint/no-misused-promises': 'off',
+        // '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
+        // '@typescript-eslint/no-unnecessary-condition': 'off',
+        // '@typescript-eslint/no-unnecessary-type-assertion': 'off',
+        // '@typescript-eslint/no-unsafe-argument': 'off',
+        // '@typescript-eslint/no-unsafe-assignment': 'off',
+        // '@typescript-eslint/no-unsafe-call': 'off',
+        // '@typescript-eslint/no-unsafe-member-access': 'off',
+        // '@typescript-eslint/no-unsafe-return': 'off',
+        // '@typescript-eslint/non-nullable-type-assertion-style': 'off',
+        // '@typescript-eslint/prefer-includes': 'off',
+        // '@typescript-eslint/prefer-readonly': 'off',
+        // '@typescript-eslint/prefer-readonly-parameter-types': 'off',
+        // '@typescript-eslint/prefer-reduce-type-parameter': 'off',
+        // '@typescript-eslint/prefer-regexp-exec': 'off',
+        // '@typescript-eslint/prefer-return-this-type': 'off',
+        // '@typescript-eslint/prefer-string-starts-ends-with': 'off',
+        // '@typescript-eslint/promise-function-async': 'off',
+        // '@typescript-eslint/restrict-template-expressions': 'off',
+        // '@typescript-eslint/strict-boolean-expressions': 'off',
+        // '@typescript-eslint/switch-exhaustiveness-check': 'off',
+        // '@typescript-eslint/unbound-method': 'off',
+        // '@typescript-eslint/dot-notation': 'off',
+        // '@typescript-eslint/require-await': 'off',
+        // '@typescript-eslint/return-await': 'off',
       },
     },
     {
