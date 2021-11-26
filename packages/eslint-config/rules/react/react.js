@@ -54,6 +54,7 @@ module.exports = {
       {
         ignoreRefs: true,
         allowArrowFunctions: true,
+        allowFunctions: true,
       },
     ],
 
