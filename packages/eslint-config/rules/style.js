@@ -26,7 +26,7 @@ module.exports = {
       {
         position: 'above',
         applyDefaultPatterns: true,
-        ignorePattern: '^\\s*[!?]',
+        ignorePattern: '^(\\s*[!?]|.{0,15})',
       },
     ],
 
