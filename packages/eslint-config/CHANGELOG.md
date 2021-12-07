@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.16.9](/compare/v1.16.8...v1.16.9) (2021-12-07)
+
+
+### Bug Fixes
+
+* allow side comments of 15 characters 60918c9
+
+
+
+
+
 ## [1.16.8](/compare/v1.16.7...v1.16.8) (2021-11-26)
 
 **Note:** Version bump only for package @kiwi/eslint-config
