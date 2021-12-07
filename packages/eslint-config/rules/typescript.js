@@ -248,6 +248,14 @@ const tsPreset = {
             leadingUnderscore: 'allow',
             trailingUnderscore: 'allow',
           },
+          // Destructured properties.
+          // Same as above but allows destructuring snake_case properties
+          // Ex: const { earliest_start, latest_end } = ...
+          {
+            selector: 'variable',
+            format: ['camelCase', 'UPPER_CASE', 'PascalCase', 'snake_case'],
+            modifiers: ['destructured'],
+          },
           {
             selector: 'function',
             format: ['camelCase', 'PascalCase'],
