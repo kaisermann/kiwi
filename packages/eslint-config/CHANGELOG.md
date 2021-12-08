@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.17.1](/compare/v1.17.0...v1.17.1) (2021-12-08)
+
+**Note:** Version bump only for package @kiwi/eslint-config
+
+
+
+
+
 # [1.17.0](/compare/v1.16.9...v1.17.0) (2021-12-07)
 
 

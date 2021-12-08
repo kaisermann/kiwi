@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.17.1](/compare/v1.17.0...v1.17.1) (2021-12-08)
+
+
+### Bug Fixes
+
+* rename deprecated prettier config fdcd1a4
+
+
+
+
+
 # [1.17.0](/compare/v1.16.9...v1.17.0) (2021-12-07)
 
 **Note:** Version bump only for package @kiwi/prettier-config
