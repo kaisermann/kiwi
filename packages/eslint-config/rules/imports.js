@@ -17,11 +17,13 @@ module.exports = {
       'error',
       {
         'newlines-between': 'always',
+        pathGroupsExcludedImportTypes: [],
         groups: [
           'builtin',
           'external',
           'internal',
           ['parent', 'sibling', 'index'],
+          ['object', 'type'],
         ],
         pathGroups: [
           {
