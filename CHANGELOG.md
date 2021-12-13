@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.18.1](/compare/v1.18.0...v1.18.1) (2021-12-13)
+
+
+### Bug Fixes
+
+* separate type and object imports 5ec6a55
+
+
+
+
+
 # [1.18.0](/compare/v1.17.1...v1.18.0) (2021-12-08)
 
 
