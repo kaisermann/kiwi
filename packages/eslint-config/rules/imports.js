@@ -23,7 +23,8 @@ module.exports = {
           'external',
           'internal',
           ['parent', 'sibling', 'index'],
-          ['object', 'type'],
+          'object',
+          'type',
         ],
         pathGroups: [
           {
