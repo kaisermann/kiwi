@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.19.0](https://kiwi/compare/v1.18.1...v1.19.0) (2022-02-18)
+
+
+### Features
+
+* update dependencies and support eslint 8 ([3ea7fa4](https://kiwi/commits/3ea7fa4a024005ec31636e43c0618a31c5231ece))
+
+
+
+
+
 ## [1.18.1](/compare/v1.18.0...v1.18.1) (2021-12-13)
 
 **Note:** Version bump only for package @kiwi/prettier-config
