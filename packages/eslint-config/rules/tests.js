@@ -50,10 +50,6 @@ const jestPreset = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-duplicate-hooks.md
     'jest/no-duplicate-hooks': 'error',
 
-    // Disallow using expect().resolves
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-expect-resolves.md
-    'jest/no-expect-resolves': 'error',
-
     // Suggest to have all hooks at top-level before tests
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-hooks-on-top.md
     'jest/prefer-hooks-on-top': 'error',

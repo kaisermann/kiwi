@@ -37,7 +37,7 @@
     "jest": "^24.8.0"
   },
   "peerDependencies": {
-    "eslint": "^6 || ^7"
+    "eslint": "^6 || ^7 || ^8"
   },
   "gitHead": "a3d7b4180a85d108cd9efa91678969550aff0c94"
 }

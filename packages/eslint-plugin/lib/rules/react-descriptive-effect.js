@@ -92,11 +92,12 @@ function create(context) {
   }
 
   return {
-    ':matches(FunctionDeclaration, ArrowFunctionExpression) > BlockStatement > ExpressionStatement > CallExpression': checkCallExpression,
+    ':matches(FunctionDeclaration, ArrowFunctionExpression) > BlockStatement > ExpressionStatement > CallExpression':
+      checkCallExpression,
     Program() {
       const comments = sourceCode.getAllComments();
 
-      for (commentNode of comments) {
+      for (const commentNode of comments) {
         const nextNode = sourceCode.getTokenAfter(commentNode);
 
         if (nextNode.type !== 'Identifier') continue;
