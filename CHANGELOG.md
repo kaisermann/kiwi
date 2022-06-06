@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.19.2](https://kiwi/compare/v1.19.1...v1.19.2) (2022-06-06)
+
+
+### Bug Fixes
+
+* add allowAny:true to restrict-plus-operands ([ae59142](https://kiwi/commits/ae591422d81a6d36235148fe4ee375800e951b4d))
+
+
+
+
+
 ## [1.19.1](https://kiwi/compare/v1.19.0...v1.19.1) (2022-02-23)
 
 
