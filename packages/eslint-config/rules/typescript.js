@@ -284,6 +284,7 @@ const tsPreset = {
           'error',
           {
             checkCompoundAssignments: true,
+            allowAny: true,
           },
         ],
 
