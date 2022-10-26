@@ -295,7 +295,6 @@ const tsPreset = {
           {
             ignoreConditionalTests: true,
             ignoreMixedLogicalExpressions: true,
-            forceSuggestionFixer: false,
           },
         ],
 
