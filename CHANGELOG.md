@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.19.3](https://kiwi/compare/v1.19.2...v1.19.3) (2022-10-27)
+
+
+### Bug Fixes
+
+* remove forceSuggestionFixer option ([b22b426](https://kiwi/commits/b22b426fc270c9a90c14a2696fc8e2ca9da71195))
+
+
+
+
+
 ## [1.19.2](https://kiwi/compare/v1.19.1...v1.19.2) (2022-06-06)
 
 
