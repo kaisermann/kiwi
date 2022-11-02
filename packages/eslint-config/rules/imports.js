@@ -17,6 +17,7 @@ module.exports = {
       'error',
       {
         'newlines-between': 'always',
+        warnOnUnassignedImports: true,
         pathGroupsExcludedImportTypes: [],
         groups: [
           'builtin',
