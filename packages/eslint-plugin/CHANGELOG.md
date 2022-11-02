@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.19.4](https://github.com/kaisermann/kiwi/compare/v1.19.3...v1.19.4) (2022-11-02)
+
+**Note:** Version bump only for package @kiwi/eslint-plugin
+
+
+
+
+
 ## [1.19.3](https://github.com/kaisermann/kiwi/compare/v1.19.2...v1.19.3) (2022-10-27)
 
 **Note:** Version bump only for package @kiwi/eslint-plugin

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.19.4](https://kiwi/compare/v1.19.3...v1.19.4) (2022-11-02)
+
+
+### Bug Fixes
+
+* enable warnOnUnassignedImports for eslint-plugin-import/order ([b57bbe8](https://kiwi/commits/b57bbe81f79b31845932dafeb9b73edc92a0c4f1))
+
+
+
+
+
 ## [1.19.3](https://kiwi/compare/v1.19.2...v1.19.3) (2022-10-27)
 
 
