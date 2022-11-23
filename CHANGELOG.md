@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://kiwi/compare/v1.19.5...v1.20.0) (2022-11-23)
+
+
+### Features
+
+* update typescript to support satisfies ([c636f4b](https://kiwi/commits/c636f4b79a71fc0d4ab0c7e799507e0b2f63b76e))
+
+
+
+
+
 ## [1.19.5](https://kiwi/compare/v1.19.4...v1.19.5) (2022-11-02)
 
 
