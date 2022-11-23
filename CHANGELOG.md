@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://kiwi/compare/v1.20.0...v2.0.0) (2022-11-23)
+
+
+### Features
+
+* update all deps ([bc05826](https://kiwi/commits/bc05826abfbd25d7feb22b02144d803e4e835629))
+
+
+
+
+
 # [1.20.0](https://kiwi/compare/v1.19.5...v1.20.0) (2022-11-23)
 
 
