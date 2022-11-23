@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "@kiwi/eslint-plugin": "^1.19.5",
-    "@typescript-eslint/eslint-plugin": "^5.12.1",
-    "@typescript-eslint/parser": "^5.12.1",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
     "confusing-browser-globals": "^1.0.11",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-cypress": "^2.12.1",
