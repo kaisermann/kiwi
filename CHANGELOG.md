@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://kiwi/compare/v2.0.0...v2.0.1) (2022-11-25)
+
+
+### Bug Fixes
+
+* use detect instead of latest ([3a06dfe](https://kiwi/commits/3a06dfe3da5e95a94c55915b4afac2667fdffc99))
+
+
+
+
+
 # [2.0.0](https://kiwi/compare/v1.20.0...v2.0.0) (2022-11-23)
 
 
