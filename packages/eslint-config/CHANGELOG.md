@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2](https://kiwi/compare/v2.0.1...v2.0.2) (2022-11-25)
+
+
+### Bug Fixes
+
+* disable unknown attribute rule ([5c3451e](https://kiwi/commits/5c3451ece81d453c43de1dabc3431fa0e7948764))
+
+
+
+
+
 ## [2.0.1](https://kiwi/compare/v2.0.0...v2.0.1) (2022-11-25)
 
 
