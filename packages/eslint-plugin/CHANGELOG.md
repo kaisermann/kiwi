@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.3](https://github.com/kaisermann/kiwi/compare/v2.0.2...v2.0.3) (2023-01-09)
+
+
+### Bug Fixes
+
+* update eslint deps ([252648a](https://github.com/kaisermann/kiwi/commit/252648ab465714d321cda7f74d018ae9b8c5a89c))
+
+
+
+
+
 ## [2.0.2](https://github.com/kaisermann/kiwi/compare/v2.0.1...v2.0.2) (2022-11-25)
 
 **Note:** Version bump only for package @kiwi/eslint-plugin
