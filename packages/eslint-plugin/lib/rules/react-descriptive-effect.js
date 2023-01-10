@@ -100,6 +100,7 @@ function create(context) {
       for (const commentNode of comments) {
         const nextNode = sourceCode.getTokenAfter(commentNode);
 
+        if (nextNode == null) continue;
         if (nextNode.type !== 'Identifier') continue;
         if (!isEffectHook(nextNode.value, additionalHooks)) continue;
 
