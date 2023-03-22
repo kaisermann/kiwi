@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.2](https://kiwi/compare/v2.1.1...v2.1.2) (2023-03-22)
+
+
+### Bug Fixes
+
+* add svelte prettier plugin as prod dep ([d98e7ee](https://kiwi/commits/d98e7eeba3262deb6036633a559ff245efa3ad0d))
+
+
+
+
+
 ## [2.1.1](https://kiwi/compare/v2.1.0...v2.1.1) (2023-03-22)
 
 
