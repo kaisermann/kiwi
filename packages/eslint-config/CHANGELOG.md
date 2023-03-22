@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://kiwi/compare/v2.1.2...v2.2.0) (2023-03-22)
+
+
+### Features
+
+* prefer inline type imports by default ([da05de8](https://kiwi/commits/da05de8330197c0c2224e758e6b2a6c3d6b2b7fd))
+
+
+
+
+
 ## [2.1.2](https://kiwi/compare/v2.1.1...v2.1.2) (2023-03-22)
 
 **Note:** Version bump only for package @kiwi/eslint-config
