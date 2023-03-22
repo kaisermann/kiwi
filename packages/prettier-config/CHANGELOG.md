@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.1](https://kiwi/compare/v2.1.0...v2.1.1) (2023-03-22)
+
+
+### Bug Fixes
+
+* support for svelte ([e0bbf68](https://kiwi/commits/e0bbf689617278f44c1e4a42078bab11a5524a02))
+
+
+
+
+
 # [2.1.0](https://kiwi/compare/v2.0.4...v2.1.0) (2023-03-22)
 
 **Note:** Version bump only for package @kiwi/prettier-config
