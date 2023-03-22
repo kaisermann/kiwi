@@ -14,7 +14,7 @@ const tsPreset = {
       plugins: ['@typescript-eslint'],
       parser: '@typescript-eslint/parser',
       parserOptions: {
-        ecmaVersion: 2019,
+        ecmaVersion: 'latest',
         sourceType: 'module',
         project: [
           // look in the root

@@ -12,7 +12,7 @@ module.exports = {
     './rules/tests.js',
   ],
   parserOptions: {
-    ecmaVersion: 2019,
+    ecmaVersion: 'latest',
     sourceType: 'module',
   },
 };
