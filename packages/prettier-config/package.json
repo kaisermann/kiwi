@@ -18,5 +18,8 @@
   "peerDependencies": {
     "prettier": "^2"
   },
-  "gitHead": "a3d7b4180a85d108cd9efa91678969550aff0c94"
+  "gitHead": "a3d7b4180a85d108cd9efa91678969550aff0c94",
+  "devDependencies": {
+    "prettier-plugin-svelte": "^2.9.0"
+  }
 }

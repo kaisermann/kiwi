@@ -1,3 +1,15 @@
+function hasPackage(path) {
+  try {
+    require.resolve(path);
+
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+const hasSvelteInstalled = hasPackage('svelte');
+
 // Reference: https://prettier.io/docs/en/options.html
 module.exports = {
   $schema: 'http://json.schemastore.org/prettierrc',
@@ -34,4 +46,16 @@ module.exports = {
 
   // Include parentheses around a sole arrow function parameter.
   arrowParens: 'always',
+
+  // If svelte is installed, add the svelte plugin and override the parser for svelte files.
+  ...(hasSvelteInstalled && {
+    plugins: ['prettier-plugin-svelte'],
+    pluginSearchDirs: ['.'],
+    overrides: [
+      {
+        files: '*.svelte',
+        options: { parser: 'svelte' },
+      },
+    ],
+  }),
 };

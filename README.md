@@ -32,8 +32,16 @@ $ yarn add -D @kiwi/eslint-config @kiwi/prettier-config
 
 **.prettierrc**:
 
+With semi-colons:
+
 ```json
 "@kiwi/prettier-config"
+```
+
+Without semi-colons:
+
+```json
+"@kiwi/prettier-config/semi-less"
 ```
 
 _(that's the whole `.prettierrc`)_
