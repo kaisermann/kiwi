@@ -18,7 +18,8 @@ module.exports = {
 
     // Enforce a consistent type import style
     // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/consistent-type-specifier-style.md
-    'import/consistent-type-specifier-style': ['error', 'prefer-inline'],
+    // Off due to @typescript-eslint/consistent-type-imports
+    'import/consistent-type-specifier-style': ['off', 'prefer-top-level'],
 
     // Ensure native, external and internal imports are separated, above relative imports and that unassigned imports are ignored
     // https://github.com/import-js/eslint-plugin-import/tree/main/docs/rules/order.md

@@ -226,6 +226,7 @@ const tsPreset = {
           {
             prefer: 'type-imports',
             disallowTypeAnnotations: true,
+            fixStyle: 'separate-type-imports',
           },
         ],
 
