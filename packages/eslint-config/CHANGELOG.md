@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.1](https://kiwi/compare/v2.2.0...v2.2.1) (2023-03-23)
+
+
+### Bug Fixes
+
+* enforce inline types only if non-type imports are present ([d4875f0](https://kiwi/commits/d4875f006dc3fa7b091f91c915b3a79ea5ae21db))
+
+
+
+
+
 # [2.2.0](https://kiwi/compare/v2.1.2...v2.2.0) (2023-03-22)
 
 
