@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.6](https://kiwi/compare/v2.2.5...v2.2.6) (2023-08-15)
+
+
+### Bug Fixes
+
+* make prefer-inline false for no-duplicates ([06cc391](https://kiwi/commits/06cc391a11022dac39b077fbd67b437908714dd0))
+
+
+
+
+
 ## [2.2.5](https://kiwi/compare/v2.2.4...v2.2.5) (2023-08-15)
 
 
