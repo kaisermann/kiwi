@@ -12,7 +12,7 @@ module.exports = {
     'import/no-duplicates': [
       'error',
       {
-        'prefer-inline': true,
+        'prefer-inline': false,
       },
     ],
 
