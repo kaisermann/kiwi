@@ -1,6 +1,6 @@
 {
   "name": "@kiwi/prettier-config",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "publishConfig": {
     "access": "public"
   },

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.5](https://kiwi/compare/v2.2.4...v2.2.5) (2023-08-15)
+
+**Note:** Version bump only for package @kiwi/prettier-config
+
+
+
+
+
 ## [2.2.4](https://kiwi/compare/v2.2.3...v2.2.4) (2023-08-15)
 
 **Note:** Version bump only for package @kiwi/prettier-config

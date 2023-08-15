@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.5](https://kiwi/compare/v2.2.4...v2.2.5) (2023-08-15)
+
+
+### Bug Fixes
+
+* make explicit-any as warning ([5109bfb](https://kiwi/commits/5109bfb592eddd7592e05e4234827967754dd58c))
+
+
+
+
+
 ## [2.2.4](https://kiwi/compare/v2.2.3...v2.2.4) (2023-08-15)
 
 
