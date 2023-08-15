@@ -7,5 +7,8 @@
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module"
+  },
+  "rules": {
+    "node/global-require": "off"
   }
 }

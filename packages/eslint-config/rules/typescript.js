@@ -284,7 +284,7 @@ const tsPreset = {
         '@typescript-eslint/restrict-plus-operands': [
           'error',
           {
-            checkCompoundAssignments: true,
+            skipCompoundAssignments: false,
             allowAny: true,
           },
         ],
