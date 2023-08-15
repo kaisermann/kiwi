@@ -26,6 +26,9 @@ module.exports = {
           typescript: '@typescript-eslint/parser',
         },
       },
+      rules: {
+        'no-labels': 'off',
+      },
     },
   ],
 };
