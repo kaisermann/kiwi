@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.7](https://kiwi/compare/v2.2.6...v2.2.7) (2023-08-15)
+
+
+### Bug Fixes
+
+* add missing svelte plugin config ([923e40e](https://kiwi/commits/923e40e4d7e953f8dae067efd5f21b968a54dc69))
+* change to svelte-eslint-parser ([b0c7d80](https://kiwi/commits/b0c7d80e41a0d0d2c22910bb5b7dd767031b3356))
+* disable no-labels ([fc64314](https://kiwi/commits/fc64314bd2511e8a58273dccfb0e975a15ca769b))
+
+
+
+
+
 ## [2.2.6](https://kiwi/compare/v2.2.5...v2.2.6) (2023-08-15)
 
 
