@@ -20,6 +20,6 @@
   },
   "gitHead": "a3d7b4180a85d108cd9efa91678969550aff0c94",
   "dependencies": {
-    "prettier-plugin-svelte": "^2.9.0"
+    "prettier-plugin-svelte": "^3.0.3"
   }
 }

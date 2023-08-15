@@ -50,12 +50,5 @@ module.exports = {
   // If svelte is installed, add the svelte plugin and override the parser for svelte files.
   ...(hasSvelteInstalled && {
     plugins: ['prettier-plugin-svelte'],
-    pluginSearchDirs: ['.'],
-    overrides: [
-      {
-        files: '*.svelte',
-        options: { parser: 'svelte' },
-      },
-    ],
   }),
 };
