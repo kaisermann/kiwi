@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.4](https://kiwi/compare/v2.2.3...v2.2.4) (2023-08-15)
+
+
+### Bug Fixes
+
+* restrict-plus-operands options ([f0cffeb](https://kiwi/commits/f0cffeb13a19f89a8e2bcb4c4ed51014bd409e30))
+
+
+
+
+
 ## [2.2.3](https://kiwi/compare/v2.2.2...v2.2.3) (2023-08-15)
 
 **Note:** Version bump only for package @kiwi/eslint-config
