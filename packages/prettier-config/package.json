@@ -16,7 +16,7 @@
     "*.js"
   ],
   "peerDependencies": {
-    "prettier": "^2"
+    "prettier": "^2 || ^3"
   },
   "gitHead": "a3d7b4180a85d108cd9efa91678969550aff0c94",
   "dependencies": {
