@@ -1,24 +1,27 @@
-/* eslint-disable node/global-require */
 module.exports = {
   extends: ['./index.js'],
-  plugins: ['svelte3'],
   env: {
     browser: true,
     es2017: true,
     node: true,
   },
   ignorePatterns: ['*.cjs'],
-  settings: {
-    'svelte3/typescript': () => require('typescript'),
-  },
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 2020,
+    extraFileExtensions: ['.svelte'],
   },
   overrides: [
     {
       files: ['*.svelte'],
-      processor: 'svelte3/svelte3',
+      parser: 'svelte-eslint-parser',
+      parserOptions: {
+        parser: {
+          ts: '@typescript-eslint/parser',
+          js: 'espree',
+          typescript: '@typescript-eslint/parser',
+        },
+      },
     },
   ],
 };
