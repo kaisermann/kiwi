@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.8](https://kiwi/compare/v2.2.7...v2.2.8) (2023-08-15)
+
+
+### Bug Fixes
+
+* disable prefer-optional-chain temporarily ([dd0de86](https://kiwi/commits/dd0de867df91557ba0ef0d7b2f6e8cd696450ca1))
+
+
+
+
+
 ## [2.2.7](https://kiwi/compare/v2.2.6...v2.2.7) (2023-08-15)
 
 
