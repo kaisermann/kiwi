@@ -159,6 +159,7 @@ const tsPreset = {
         // Enforce optional chaining over chaining AND (&&) operators
         // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-optional-chain.md
         // ! Off until we can disable it for `typeof window === 'undefined'`
+        // https://github.com/typescript-eslint/typescript-eslint/issues/7478
         '@typescript-eslint/prefer-optional-chain': 'off',
 
         // Enforce optional chaining over chaining AND (&&) operators
