@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.9](https://kiwi/compare/v2.2.8...v2.2.9) (2023-12-13)
+
+
+### Bug Fixes
+
+* disable import/export for ts files ([29a1435](https://kiwi/commits/29a143563a0aeb2441520631c4adb47b06ca98a3))
+
+
+
+
+
 ## [2.2.8](https://kiwi/compare/v2.2.7...v2.2.8) (2023-08-15)
 
 
