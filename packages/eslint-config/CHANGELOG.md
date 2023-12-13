@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.10](https://kiwi/compare/v2.2.9...v2.2.10) (2023-12-13)
+
+
+### Bug Fixes
+
+* use parserOptions.project: true instead of globs ([f57e7de](https://kiwi/commits/f57e7ded2740ce2085dabd58ac3c8b7767588e7d))
+
+
+
+
+
 ## [2.2.9](https://kiwi/compare/v2.2.8...v2.2.9) (2023-12-13)
 
 
