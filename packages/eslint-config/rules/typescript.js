@@ -13,18 +13,11 @@ const tsPreset = {
       ],
       plugins: ['@typescript-eslint'],
       parser: '@typescript-eslint/parser',
+      // Reference: https://typescript-eslint.io/packages/parser/#configuration
       parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',
-        project: [
-          // look in the root
-          'tsconfig{.eslint.json,.json}',
-          // look in dirs like node/react
-          // TODO: can these negations be smarter?
-          '*/tsconfig{.eslint.json,.json}',
-          // look in dirs like packages/package/*
-          '*/*/tsconfig{.eslint.json,.json}',
-        ],
+        project: true,
         projectFolderIgnoreList: [/node_modules/i],
         // We need this configuration to avoid performance issues in monorepos
         // https://github.com/typescript-eslint/typescript-eslint/issues/1192#issuecomment-862414778
@@ -33,7 +26,6 @@ const tsPreset = {
       rules: {
         //! extensions of native eslint rules
         //! when modifying a rule here, make sure to modify the native one and vice-versa
-
         // Disallow declaration of variables already declared in the outer scope
         // https://eslint.org/docs/rules/no-shadow
         'no-shadow': 'off',
