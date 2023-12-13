@@ -22,6 +22,8 @@ const tsPreset = {
         // We need this configuration to avoid performance issues in monorepos
         // https://github.com/typescript-eslint/typescript-eslint/issues/1192#issuecomment-862414778
         allowAutomaticSingleRunInference: true,
+        // Keep track: https://github.com/typescript-eslint/typescript-eslint/issues/7383
+        // EXPERIMENTAL_useProjectService: true,
       },
       rules: {
         //! extensions of native eslint rules
