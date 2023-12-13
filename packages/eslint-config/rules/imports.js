@@ -76,4 +76,13 @@ module.exports = {
     // https://github.com/import-js/eslint-plugin-import/tree/main/docs/rules/no-self-import.md
     'import/no-self-import': 'error',
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        // Typescript handles this for us
+        'import/export': 'off',
+      },
+    },
+  ],
 };

@@ -8,8 +8,8 @@ module.exports = {
     './rules/variables.js',
     './rules/best-practices.js',
     './rules/imports.js',
-    './rules/typescript.js',
     './rules/tests.js',
+    './rules/typescript.js',
   ],
   parserOptions: {
     ecmaVersion: 'latest',

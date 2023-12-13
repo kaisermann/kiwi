@@ -9,6 +9,7 @@
     "sourceType": "module"
   },
   "rules": {
-    "node/global-require": "off"
+    "node/global-require": "off",
+    "camelcase": "off"
   }
 }
