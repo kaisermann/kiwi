@@ -11,8 +11,8 @@ module.exports = {
   },
   ignorePatterns: ['*.cjs'],
   parserOptions: {
+    ecmaVersion: 'latest',
     sourceType: 'module',
-    ecmaVersion: 2020,
     extraFileExtensions: ['.svelte'],
   },
   overrides: [
