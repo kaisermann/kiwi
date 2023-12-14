@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.11](https://kiwi/compare/v2.2.10...v2.2.11) (2023-12-14)
+
+
+### Bug Fixes
+
+* projectFolderIgnoreList ([cd58e83](https://kiwi/commits/cd58e83fa38c838483d7b7e40c8c10ee874be329))
+
+
+
+
+
 ## [2.2.10](https://kiwi/compare/v2.2.9...v2.2.10) (2023-12-13)
 
 
