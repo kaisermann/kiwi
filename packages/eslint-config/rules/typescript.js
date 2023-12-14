@@ -18,7 +18,7 @@ const tsPreset = {
         ecmaVersion: 'latest',
         sourceType: 'module',
         project: true,
-        projectFolderIgnoreList: [/node_modules/i],
+        projectFolderIgnoreList: ['**/node_modules/**'],
         // We need this configuration to avoid performance issues in monorepos
         // https://github.com/typescript-eslint/typescript-eslint/issues/1192#issuecomment-862414778
         allowAutomaticSingleRunInference: true,
