@@ -240,6 +240,10 @@ const tsPreset = {
             trailingUnderscore: 'allow',
           },
           {
+            selector: 'import',
+            format: ['camelCase', 'PascalCase', 'snake_case'],
+          },
+          {
             selector: 'variable',
             format: ['camelCase', 'UPPER_CASE', 'PascalCase', 'snake_case'],
             leadingUnderscore: 'allow',
