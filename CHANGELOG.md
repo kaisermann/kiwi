@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.1](https://kiwi/compare/v2.3.0...v2.3.1) (2024-02-07)
+
+
+### Bug Fixes
+
+* allow snake_case and PascalCase for imports ([681e3ef](https://kiwi/commits/681e3efee0a7a8f3a93bcbd8bcd24c5cddff1f57))
+
+
+
+
+
 # [2.3.0](https://kiwi/compare/v2.2.12...v2.3.0) (2024-02-07)
 
 
