@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://kiwi/compare/v2.2.12...v2.3.0) (2024-02-07)
+
+
+### Features
+
+* 🎸 allow snake_case ([8f3ebb7](https://kiwi/commits/8f3ebb77b22b4dc87dbfb1287c2570c2b9c5c2df))
+
+
+
+
+
 ## [2.2.12](https://kiwi/compare/v2.2.11...v2.2.12) (2023-12-14)
 
 **Note:** Version bump only for package @kiwi/eslint-config
