@@ -235,27 +235,19 @@ const tsPreset = {
           'error',
           {
             selector: 'default',
-            format: ['camelCase'],
+            format: ['camelCase', 'snake_case'],
             leadingUnderscore: 'allow',
             trailingUnderscore: 'allow',
           },
-          {
-            selector: 'variable',
-            format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
-            leadingUnderscore: 'allow',
-            trailingUnderscore: 'allow',
-          },
-          // Destructured properties.
-          // Same as above but allows destructuring snake_case properties
-          // Ex: const { earliest_start, latest_end } = ...
           {
             selector: 'variable',
             format: ['camelCase', 'UPPER_CASE', 'PascalCase', 'snake_case'],
-            modifiers: ['destructured'],
+            leadingUnderscore: 'allow',
+            trailingUnderscore: 'allow',
           },
           {
             selector: 'function',
-            format: ['camelCase', 'PascalCase'],
+            format: ['camelCase', 'PascalCase', 'snake_case'],
           },
           {
             selector: 'typeLike',
