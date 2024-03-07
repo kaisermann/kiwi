@@ -841,8 +841,8 @@ __metadata:
   resolution: "@kiwi/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@kiwi/eslint-plugin": "npm:^2.3.1"
-    "@typescript-eslint/eslint-plugin": "npm:7.1.1"
-    "@typescript-eslint/parser": "npm:7.1.1"
+    "@typescript-eslint/eslint-plugin": "npm:^7.1.1"
+    "@typescript-eslint/parser": "npm:^7.1.1"
     confusing-browser-globals: "npm:^1.0.11"
     eslint-config-prettier: "npm:^9.0.0"
     eslint-plugin-cypress: "npm:^2.14.0"
@@ -875,8 +875,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@kiwi/eslint-plugin@workspace:packages/eslint-plugin"
   dependencies:
-    "@typescript-eslint/experimental-utils": "npm:5.62.0"
-    "@typescript-eslint/parser": "npm:7.1.1"
+    "@typescript-eslint/experimental-utils": "npm:^5.62.0"
+    "@typescript-eslint/parser": "npm:^7.1.1"
     jest: "npm:^29.5.0"
   peerDependencies:
     eslint: ^6 || ^7 || ^8
@@ -2188,7 +2188,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:7.1.1":
+"@typescript-eslint/eslint-plugin@npm:^7.1.1":
   version: 7.1.1
   resolution: "@typescript-eslint/eslint-plugin@npm:7.1.1"
   dependencies:
@@ -2213,7 +2213,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:5.62.0":
+"@typescript-eslint/experimental-utils@npm:^5.62.0":
   version: 5.62.0
   resolution: "@typescript-eslint/experimental-utils@npm:5.62.0"
   dependencies:
@@ -2224,7 +2224,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:7.1.1":
+"@typescript-eslint/parser@npm:^7.1.1":
   version: 7.1.1
   resolution: "@typescript-eslint/parser@npm:7.1.1"
   dependencies:
