@@ -1,2 +1,14 @@
 node_modules/
 lerna-debug.log
+yarn-error.log
+
+# Yarn v4
+# See: https://github.com/yarnpkg/berry/issues/454#issuecomment-1411548086
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
