@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](https://kiwi/compare/v2.3.1...v2.4.0) (2024-03-07)
+
+
+### Features
+
+* update typescript-eslint packages ([d5584c9](https://kiwi/commits/d5584c9c1e24c955d219f9e5ab6bf80946d60f17))
+
+
+
+
+
 ## [2.3.1](https://kiwi/compare/v2.3.0...v2.3.1) (2024-02-07)
 
 
