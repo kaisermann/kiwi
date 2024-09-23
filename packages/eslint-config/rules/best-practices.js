@@ -253,7 +253,7 @@ module.exports = {
       'warn',
       {
         VariableDeclarator: {
-          array: true,
+          array: false,
           object: true,
         },
         AssignmentExpression: {
