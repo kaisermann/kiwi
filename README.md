@@ -2,7 +2,7 @@
 
 _Kiwi Tooling_ is a very dear and hand-crafted front-end tooling preset that aims to guide you on writing readable code for humans.
 
-For now, this presets are more focused in providing an easier DX for all kinds of projects that I find myself getting into. That's why it comes with plugins for `jest`, `svelte`, etc. The rules plugins won't be used if the project doesn't have its related tool installed.
+For now, this presets are more focused in providing an easier DX for all kinds of projects that I find myself getting into. That's why it comes with plugins for `svelte`, etc. The rules plugins won't be used if the project doesn't have its related tool installed.
 
 ## Supports
 
@@ -10,7 +10,6 @@ For now, this presets are more focused in providing an easier DX for all kinds o
 - React (optional, must install `react`)
 - Svelte (optional, must install `svelte`)
 - Typescript (optional, must install `typescript`)
-- Jest (optional, must install `jest`)
 
 ## Usage
 

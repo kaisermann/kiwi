@@ -8,7 +8,6 @@ module.exports = {
     './rules/variables.js',
     './rules/best-practices.js',
     './rules/imports.js',
-    './rules/tests.js',
     './rules/typescript.js',
   ],
   parserOptions: {
