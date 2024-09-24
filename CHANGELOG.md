@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://kiwi/compare/v2.4.1...v3.0.0) (2024-09-24)
+
+
+### Features
+
+* 🎸 remove test related rules ([ec4be21](https://kiwi/commits/ec4be2191decff45dcf1f6fc8a7fb366ff719012))
+
+
+### BREAKING CHANGES
+
+* 🧨 YES
+
+
+
+
+
 ## [2.4.1](https://kiwi/compare/v2.4.0...v2.4.1) (2024-09-23)
 
 **Note:** Version bump only for package @kiwi/tooling
