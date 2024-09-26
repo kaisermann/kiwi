@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://kiwi/compare/v3.0.0...v3.0.1) (2024-09-26)
+
+
+### Bug Fixes
+
+* allow import in type annotations ([49e19c6](https://kiwi/commits/49e19c6732cc4474d426d11be444faeb1de88c68))
+
+
+
+
+
 # [3.0.0](https://kiwi/compare/v2.4.1...v3.0.0) (2024-09-24)
 
 
