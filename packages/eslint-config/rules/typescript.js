@@ -221,7 +221,7 @@ const tsPreset = {
           'warn',
           {
             prefer: 'type-imports',
-            disallowTypeAnnotations: true,
+            disallowTypeAnnotations: false,
             fixStyle: 'separate-type-imports',
           },
         ],
