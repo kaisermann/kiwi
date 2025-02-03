@@ -286,8 +286,8 @@ const tsPreset = {
         '@typescript-eslint/no-unnecessary-qualifier': 'warn',
 
         // Disallow throwing literals as exceptions
-        // https://typescript-eslint.io/rules/no-throw-literal
-        '@typescript-eslint/no-throw-literal': 'warn',
+        // https://typescript-eslint.io/rules/only-throw-error
+        '@typescript-eslint/only-throw-error': 'warn',
 
         // Disallows invocation of require() in favor of import statements
         // https://typescript-eslint.io/rules/no-require-imports
