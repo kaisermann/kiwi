@@ -174,7 +174,13 @@ const tsPreset = {
 
         // Disallow empty object type ({}), as it actually means any non nullable value (even 0, '', etc)
         // https://typescript-eslint.io/rules/no-empty-object-type
-        '@typescript-eslint/no-empty-object-type': 'error',
+        '@typescript-eslint/no-empty-object-type': [
+          'error',
+          {
+            allowInterfaces: 'with-single-extends',
+            allowWithName: 'Props$',
+          },
+        ],
 
         // Disallow the use of unsafe Function type
         // https://typescript-eslint.io/rules/no-unsafe-function-type
