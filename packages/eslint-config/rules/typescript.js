@@ -58,7 +58,11 @@ const tsPreset = {
           'warn',
           {
             ignoreRestSiblings: true,
-            argsIgnorePattern: '_+',
+            argsIgnorePattern: '^_+',
+            caughtErrors: 'all',
+            caughtErrorsIgnorePattern: '^_',
+            destructuredArrayIgnorePattern: '^_',
+            varsIgnorePattern: '^_',
           },
         ],
 
