@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://kiwi/compare/v3.0.1...v3.1.0) (2025-02-03)
+
+
+### Features
+
+* update eslint-config-typescript stuff ([4324653](https://kiwi/commits/43246536b4a75dc304a48f79c58a49cdcdbdd76a))
+
+
+
+
+
 ## [3.0.1](https://kiwi/compare/v3.0.0...v3.0.1) (2024-09-26)
 
 
