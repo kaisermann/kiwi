@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.3](https://kiwi/compare/v3.1.2...v3.1.3) (2025-02-03)
+
+
+### Bug Fixes
+
+* update more ts rules 2 ([754e475](https://kiwi/commits/754e475ca0234cdc10c0aae52596fb6909ecc86d))
+
+
+
+
+
 ## [3.1.2](https://kiwi/compare/v3.1.1...v3.1.2) (2025-02-03)
 
 
