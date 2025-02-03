@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.1](https://kiwi/compare/v3.1.0...v3.1.1) (2025-02-03)
+
+
+### Bug Fixes
+
+* update typescript rules ([6951992](https://kiwi/commits/695199227c216925ff896f476608d2932178c1d7))
+
+
+
+
+
 # [3.1.0](https://kiwi/compare/v3.0.1...v3.1.0) (2025-02-03)
 
 
