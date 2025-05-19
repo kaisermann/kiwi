@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://kiwi/compare/v3.1.4...v4.0.0) (2025-05-19)
+
+
+### Code Refactoring
+
+* 💡 replace eslint-plugin-node with esling-plugin-n ([b368050](https://kiwi/commits/b368050232c9aef71c40ececdd7134b836b2d548))
+
+
+### BREAKING CHANGES
+
+* 🧨 oh yes
+
+
+
+
+
 ## [3.1.4](https://kiwi/compare/v3.1.3...v3.1.4) (2025-02-03)
 
 **Note:** Version bump only for package @kiwi/tooling
