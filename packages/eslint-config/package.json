@@ -17,9 +17,8 @@
     "rules/",
     "lib/"
   ],
-  "peerDependencies": {
-    "eslint": "^8",
-    "prettier": "^2 || ^3"
+  "devDependencies": {
+    "typescript": "^5.8.3"
   },
   "dependencies": {
     "@kiwi/eslint-plugin": "^3.1.4",
@@ -37,6 +36,10 @@
     "eslint-plugin-svelte": "^2.35.1",
     "espree": "^9.6.1",
     "svelte-eslint-parser": "^0.33.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8",
+    "prettier": "^2 || ^3"
   },
   "peerDependenciesMeta": {
     "prettier": {

@@ -881,6 +881,7 @@ __metadata:
     eslint-plugin-svelte: "npm:^2.35.1"
     espree: "npm:^9.6.1"
     svelte-eslint-parser: "npm:^0.33.1"
+    typescript: "npm:^5.8.3"
   peerDependencies:
     eslint: ^8
     prettier: ^2 || ^3
@@ -899,7 +900,7 @@ __metadata:
   resolution: "@kiwi/eslint-plugin@workspace:packages/eslint-plugin"
   dependencies:
     "@typescript-eslint/experimental-utils": "npm:^5.62.0"
-    "@typescript-eslint/parser": "npm:^8.32.1"
+    "@typescript-eslint/parser": "npm:^8.22.0"
     jest: "npm:^29.5.0"
   peerDependencies:
     eslint: ^6 || ^7 || ^8
@@ -2245,7 +2246,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^8.32.1":
+"@typescript-eslint/parser@npm:^8.22.0, @typescript-eslint/parser@npm:^8.32.1":
   version: 8.32.1
   resolution: "@typescript-eslint/parser@npm:8.32.1"
   dependencies:
@@ -9993,6 +9994,26 @@ __metadata:
   version: 0.0.6
   resolution: "typedarray@npm:0.0.6"
   checksum: 10c0/6005cb31df50eef8b1f3c780eb71a17925f3038a100d82f9406ac2ad1de5eb59f8e6decbdc145b3a1f8e5836e17b0c0002fb698b9fe2516b8f9f9ff602d36412
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^5.8.3":
+  version: 5.8.3
+  resolution: "typescript@npm:5.8.3"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/5f8bb01196e542e64d44db3d16ee0e4063ce4f3e3966df6005f2588e86d91c03e1fb131c2581baf0fb65ee79669eea6e161cd448178986587e9f6844446dbb48
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A^5.8.3#optional!builtin<compat/typescript>":
+  version: 5.8.3
+  resolution: "typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/92ea03509e06598948559ddcdd8a4ae5a7ab475766d5589f1b796f5731b3d631a4c7ddfb86a3bd44d58d10102b132cd4b4994dda9b63e6273c66d77d6a271dbd
   languageName: node
   linkType: hard
 
