@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://kiwi/compare/v4.0.0...v4.1.0) (2025-05-20)
+
+
+### Features
+
+* add n/prefer-node-protocol rule ([b28d6d4](https://kiwi/commits/b28d6d409964fa525dc4be2b45517c2f51bf3c46))
+
+
+
+
+
 # [4.0.0](https://kiwi/compare/v3.1.4...v4.0.0) (2025-05-19)
 
 
