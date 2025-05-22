@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.1](https://kiwi/compare/v4.1.0...v4.1.1) (2025-05-22)
+
+
+### Bug Fixes
+
+* make prefer-node-protocol throw a warn ([72e4ab8](https://kiwi/commits/72e4ab869044f37499ace7305b4c852bb0c2c21d))
+
+
+
+
+
 # [4.1.0](https://kiwi/compare/v4.0.0...v4.1.0) (2025-05-20)
 
 
