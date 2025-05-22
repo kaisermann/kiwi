@@ -37,7 +37,7 @@ module.exports = {
 
     // Enforce using the node: protocol when importing Node.js builtin modules
     'n/prefer-node-protocol': [
-      'error',
+      'warn',
       {
         version: '>=16.0.0',
       },
