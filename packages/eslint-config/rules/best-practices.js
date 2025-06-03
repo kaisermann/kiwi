@@ -183,7 +183,7 @@ module.exports = {
 
     // Disallow use of void operator
     // https://eslint.org/docs/rules/no-void
-    'no-void': 'error',
+    'no-void': ['error', { allowAsStatement: true }],
 
     // Prefer using regex literals instead of constructor
     // https://eslint.org/docs/rules/prefer-regex-literals
