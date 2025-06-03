@@ -9,6 +9,7 @@ module.exports = {
     './rules/best-practices.js',
     './rules/imports.js',
     './rules/typescript.js',
+    './rules/jsdoc.js',
   ],
   parserOptions: {
     ecmaVersion: 'latest',
