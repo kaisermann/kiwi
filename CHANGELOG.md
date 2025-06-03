@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://kiwi/compare/v4.1.1...v4.2.0) (2025-06-03)
+
+
+### Features
+
+* Allow void as statement ([b10c44f](https://kiwi/commits/b10c44ffa852d11254ebdd4648f0b4dc8c7267eb))
+
+
+
+
+
 ## [4.1.1](https://kiwi/compare/v4.1.0...v4.1.1) (2025-05-22)
 
 
